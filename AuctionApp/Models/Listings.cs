@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
 namespace AuctionApp.Models;
@@ -21,7 +22,7 @@ public class Listings
    
    public string? IdentityUserId { get; set; }
    
-
+   [Required]
    [ForeignKey("IdentityUserId")]
    public IdentityUser? User { get; set; }
    

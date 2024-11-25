@@ -13,16 +13,17 @@ public class Comment
     [Required]
     public string? IdentityUserId { get; set; }
 
-
+    [Required]
     [ForeignKey("IdentityUserId")]
     public IdentityUser? WinningBidder { get; set; }
 
-
+    [Required]
     [ForeignKey("IdentityUserId")]
     public IdentityUser? User { get; set; }
     
     public int? ListingId { get; set; } 
     
+    [Required]
     [ForeignKey("ListingId")] 
     public Listings? Listing { get; set; }
 }
