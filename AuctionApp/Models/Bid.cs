@@ -6,8 +6,10 @@ namespace AuctionApp.Models;
 
 public class Bid
 {
-    public int Id { get; set; }
+    [Key]
+    public int BidId { get; set; }
     
+    [Column(TypeName = "money")]
     public decimal Price { get; set; }
 
     [Required]
@@ -17,7 +19,9 @@ public class Bid
     [ForeignKey("IdentityUserId")]
     public IdentityUser? User { get; set; }
 
-    [Required]    
+    [Required]
+    [Key]
+    [ForeignKey("Listing")]    
     public int? ListingId { get; set; }
 
     [Required]
