@@ -14,18 +14,13 @@ public class Comment
     public string? Content { get; set; }
 
     [Required]
-    [ForeignKey("User")]
     public string? IdentityUserId { get; set; }
-
-    [Required]
-    [ForeignKey("IdentityUserId")]
-    public IdentityUser? WinningBidder { get; set; }
 
     [Required]
     [ForeignKey("IdentityUserId")]
     public IdentityUser? User { get; set; }
 
-    [Key]
+    [Required]    
     public int? ListingId { get; set; }
 
     [Required]

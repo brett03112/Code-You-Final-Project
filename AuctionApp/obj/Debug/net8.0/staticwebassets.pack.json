@@ -13,6 +13,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\German_chocolate_bundt_cake.jpg",
+      "PackagePath": "staticwebassets\\images\\German_chocolate_bundt_cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\apple_pie.jpg",
+      "PackagePath": "staticwebassets\\images\\apple_pie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\banana_pudding.jpg",
+      "PackagePath": "staticwebassets\\images\\banana_pudding.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\brownies.jpg",
+      "PackagePath": "staticwebassets\\images\\brownies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\christmas_table.jpg",
+      "PackagePath": "staticwebassets\\images\\christmas_table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\community_center_1.jpg",
+      "PackagePath": "staticwebassets\\images\\community_center_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\key_lime_pie.jpg",
+      "PackagePath": "staticwebassets\\images\\key_lime_pie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\orange_slice_cheesecake.jpg",
+      "PackagePath": "staticwebassets\\images\\orange_slice_cheesecake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\peach_cobbler.jpg",
+      "PackagePath": "staticwebassets\\images\\peach_cobbler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\snickerdoodle_cookies.jpg",
+      "PackagePath": "staticwebassets\\images\\snickerdoodle_cookies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_rhubarb_pie.jpg",
+      "PackagePath": "staticwebassets\\images\\strawberry_rhubarb_pie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_shortcake.jpg",
+      "PackagePath": "staticwebassets\\images\\strawberry_shortcake.jpg"
+    },
+    {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

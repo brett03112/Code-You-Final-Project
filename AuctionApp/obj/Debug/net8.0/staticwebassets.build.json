@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e1YAdP3nDrEJLDqp4lXg9Y6VUcrQu8EIksktjyGgxFI=",
+  "Hash": "9ePH9Vee2I44SCYKTYb3qgPptKKWEDNbGZO1QtuXn68=",
   "Source": "AuctionApp",
   "BasePath": "_content/AuctionApp",
   "Mode": "Default",
@@ -1359,6 +1359,258 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\apple_pie.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/apple_pie#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8vpewz3c57",
+      "Integrity": "dDYcRKUNv5dEZ777/6ho1kv0o1KLXJZszN2E+O6dPCc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\apple_pie.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\banana_pudding.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/banana_pudding#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yjojx958ne",
+      "Integrity": "8ieYFvNi1I6JNl48RPjf8UgF/oAuK0g72/SXXP5zcac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banana_pudding.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\brownies.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/brownies#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qrq6tovsx0",
+      "Integrity": "Blq+fiMIMdVB5LtcMCD/n0vi7EQqcdgUohNj9WeKv/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\brownies.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\christmas_table.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/christmas_table#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5gmlar255",
+      "Integrity": "VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\christmas_table.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\community_center_1.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/community_center_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1zvela85sg",
+      "Integrity": "Xfb6y8y6ECt9w/Nyz0LYo1UNA8CY6RrRVB3uS9C2/8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\community_center_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\German_chocolate_bundt_cake.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/German_chocolate_bundt_cake#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khp81elgso",
+      "Integrity": "CBwBEzIckpI7Uv3JYkSgschvS74wQ2z9hlZT6qDMEe0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\German_chocolate_bundt_cake.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\key_lime_pie.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/key_lime_pie#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r6sgsu38uq",
+      "Integrity": "s/aN87LsLr9hSP68lZFt5QwywwgVOxdy/J7qOsto6t8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\key_lime_pie.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\orange_slice_cheesecake.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/orange_slice_cheesecake#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "deec3ff6za",
+      "Integrity": "Gz04Ql+w4kLlCVbVsWlus/aRWWrS4+zvZKzMhXL+eJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\orange_slice_cheesecake.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\peach_cobbler.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/peach_cobbler#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ldd7oj92re",
+      "Integrity": "eZNN4Ux178UB0Z86n2FLgzBvCaoo9CYAiYpdAwx2z9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\peach_cobbler.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\snickerdoodle_cookies.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/snickerdoodle_cookies#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pu1s5rnx41",
+      "Integrity": "n+bz9AHAka/exkxWq416QL2IvFXIvCKc7Sjs+hSD7GQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\snickerdoodle_cookies.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_rhubarb_pie.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/strawberry_rhubarb_pie#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y4sytbaa8n",
+      "Integrity": "DtRhHbpL9DjmqExxcW1O2jv5QsLTYSLcpBAHFRcGfWE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\strawberry_rhubarb_pie.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_shortcake.jpg",
+      "SourceId": "AuctionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\",
+      "BasePath": "_content/AuctionApp",
+      "RelativePath": "images/strawberry_shortcake#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqfoxrkqqw",
+      "Integrity": "UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\strawberry_shortcake.jpg"
     },
     {
       "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\js\\site.js",
@@ -5125,6 +5377,990 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/apple_pie.8vpewz3c57.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\apple_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDYcRKUNv5dEZ777/6ho1kv0o1KLXJZszN2E+O6dPCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8vpewz3c57"
+        },
+        {
+          "Name": "label",
+          "Value": "images/apple_pie.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDYcRKUNv5dEZ777/6ho1kv0o1KLXJZszN2E+O6dPCc="
+        }
+      ]
+    },
+    {
+      "Route": "images/apple_pie.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\apple_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dDYcRKUNv5dEZ777/6ho1kv0o1KLXJZszN2E+O6dPCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dDYcRKUNv5dEZ777/6ho1kv0o1KLXJZszN2E+O6dPCc="
+        }
+      ]
+    },
+    {
+      "Route": "images/banana_pudding.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\banana_pudding.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1276412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ieYFvNi1I6JNl48RPjf8UgF/oAuK0g72/SXXP5zcac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ieYFvNi1I6JNl48RPjf8UgF/oAuK0g72/SXXP5zcac="
+        }
+      ]
+    },
+    {
+      "Route": "images/banana_pudding.yjojx958ne.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\banana_pudding.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1276412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ieYFvNi1I6JNl48RPjf8UgF/oAuK0g72/SXXP5zcac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjojx958ne"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banana_pudding.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ieYFvNi1I6JNl48RPjf8UgF/oAuK0g72/SXXP5zcac="
+        }
+      ]
+    },
+    {
+      "Route": "images/brownies.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\brownies.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Blq+fiMIMdVB5LtcMCD/n0vi7EQqcdgUohNj9WeKv/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Blq+fiMIMdVB5LtcMCD/n0vi7EQqcdgUohNj9WeKv/o="
+        }
+      ]
+    },
+    {
+      "Route": "images/brownies.qrq6tovsx0.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\brownies.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Blq+fiMIMdVB5LtcMCD/n0vi7EQqcdgUohNj9WeKv/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qrq6tovsx0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/brownies.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Blq+fiMIMdVB5LtcMCD/n0vi7EQqcdgUohNj9WeKv/o="
+        }
+      ]
+    },
+    {
+      "Route": "images/christmas_table.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\christmas_table.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1544100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA="
+        }
+      ]
+    },
+    {
+      "Route": "images/christmas_table.x5gmlar255.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\christmas_table.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1544100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5gmlar255"
+        },
+        {
+          "Name": "label",
+          "Value": "images/christmas_table.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA="
+        }
+      ]
+    },
+    {
+      "Route": "images/community_center_1.1zvela85sg.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\community_center_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xfb6y8y6ECt9w/Nyz0LYo1UNA8CY6RrRVB3uS9C2/8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zvela85sg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/community_center_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xfb6y8y6ECt9w/Nyz0LYo1UNA8CY6RrRVB3uS9C2/8c="
+        }
+      ]
+    },
+    {
+      "Route": "images/community_center_1.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\community_center_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xfb6y8y6ECt9w/Nyz0LYo1UNA8CY6RrRVB3uS9C2/8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xfb6y8y6ECt9w/Nyz0LYo1UNA8CY6RrRVB3uS9C2/8c="
+        }
+      ]
+    },
+    {
+      "Route": "images/German_chocolate_bundt_cake.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\German_chocolate_bundt_cake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1828994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CBwBEzIckpI7Uv3JYkSgschvS74wQ2z9hlZT6qDMEe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CBwBEzIckpI7Uv3JYkSgschvS74wQ2z9hlZT6qDMEe0="
+        }
+      ]
+    },
+    {
+      "Route": "images/German_chocolate_bundt_cake.khp81elgso.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\German_chocolate_bundt_cake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1828994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CBwBEzIckpI7Uv3JYkSgschvS74wQ2z9hlZT6qDMEe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khp81elgso"
+        },
+        {
+          "Name": "label",
+          "Value": "images/German_chocolate_bundt_cake.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CBwBEzIckpI7Uv3JYkSgschvS74wQ2z9hlZT6qDMEe0="
+        }
+      ]
+    },
+    {
+      "Route": "images/key_lime_pie.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\key_lime_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1290036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/aN87LsLr9hSP68lZFt5QwywwgVOxdy/J7qOsto6t8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:26:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/aN87LsLr9hSP68lZFt5QwywwgVOxdy/J7qOsto6t8="
+        }
+      ]
+    },
+    {
+      "Route": "images/key_lime_pie.r6sgsu38uq.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\key_lime_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1290036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/aN87LsLr9hSP68lZFt5QwywwgVOxdy/J7qOsto6t8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:26:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r6sgsu38uq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/key_lime_pie.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/aN87LsLr9hSP68lZFt5QwywwgVOxdy/J7qOsto6t8="
+        }
+      ]
+    },
+    {
+      "Route": "images/orange_slice_cheesecake.deec3ff6za.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\orange_slice_cheesecake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1570209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gz04Ql+w4kLlCVbVsWlus/aRWWrS4+zvZKzMhXL+eJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:28:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deec3ff6za"
+        },
+        {
+          "Name": "label",
+          "Value": "images/orange_slice_cheesecake.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gz04Ql+w4kLlCVbVsWlus/aRWWrS4+zvZKzMhXL+eJ0="
+        }
+      ]
+    },
+    {
+      "Route": "images/orange_slice_cheesecake.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\orange_slice_cheesecake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1570209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gz04Ql+w4kLlCVbVsWlus/aRWWrS4+zvZKzMhXL+eJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:28:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gz04Ql+w4kLlCVbVsWlus/aRWWrS4+zvZKzMhXL+eJ0="
+        }
+      ]
+    },
+    {
+      "Route": "images/peach_cobbler.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\peach_cobbler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1425490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZNN4Ux178UB0Z86n2FLgzBvCaoo9CYAiYpdAwx2z9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZNN4Ux178UB0Z86n2FLgzBvCaoo9CYAiYpdAwx2z9M="
+        }
+      ]
+    },
+    {
+      "Route": "images/peach_cobbler.ldd7oj92re.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\peach_cobbler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1425490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZNN4Ux178UB0Z86n2FLgzBvCaoo9CYAiYpdAwx2z9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:06:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ldd7oj92re"
+        },
+        {
+          "Name": "label",
+          "Value": "images/peach_cobbler.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZNN4Ux178UB0Z86n2FLgzBvCaoo9CYAiYpdAwx2z9M="
+        }
+      ]
+    },
+    {
+      "Route": "images/snickerdoodle_cookies.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\snickerdoodle_cookies.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1522211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+bz9AHAka/exkxWq416QL2IvFXIvCKc7Sjs+hSD7GQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+bz9AHAka/exkxWq416QL2IvFXIvCKc7Sjs+hSD7GQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/snickerdoodle_cookies.pu1s5rnx41.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\snickerdoodle_cookies.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1522211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+bz9AHAka/exkxWq416QL2IvFXIvCKc7Sjs+hSD7GQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pu1s5rnx41"
+        },
+        {
+          "Name": "label",
+          "Value": "images/snickerdoodle_cookies.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+bz9AHAka/exkxWq416QL2IvFXIvCKc7Sjs+hSD7GQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/strawberry_rhubarb_pie.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_rhubarb_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1840386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtRhHbpL9DjmqExxcW1O2jv5QsLTYSLcpBAHFRcGfWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:22:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtRhHbpL9DjmqExxcW1O2jv5QsLTYSLcpBAHFRcGfWE="
+        }
+      ]
+    },
+    {
+      "Route": "images/strawberry_rhubarb_pie.y4sytbaa8n.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_rhubarb_pie.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1840386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtRhHbpL9DjmqExxcW1O2jv5QsLTYSLcpBAHFRcGfWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:22:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y4sytbaa8n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/strawberry_rhubarb_pie.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtRhHbpL9DjmqExxcW1O2jv5QsLTYSLcpBAHFRcGfWE="
+        }
+      ]
+    },
+    {
+      "Route": "images/strawberry_shortcake.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_shortcake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU="
+        }
+      ]
+    },
+    {
+      "Route": "images/strawberry_shortcake.oqfoxrkqqw.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\AuctionApp\\wwwroot\\images\\strawberry_shortcake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqfoxrkqqw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/strawberry_shortcake.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU="
         }
       ]
     },

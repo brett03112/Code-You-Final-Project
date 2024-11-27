@@ -13,6 +13,8 @@ public class Listings
    [Column(TypeName = "nvarchar(50)")]
    [StringLength(50)]
    public string? Title { get; set; }
+
+   public string? ImagePath { get; set; }
    
    [Column(TypeName = "nvarchar(100)")]
    [StringLength(100)]
@@ -20,9 +22,7 @@ public class Listings
 
    [Required]
    [Column(TypeName = "money")]   
-   public decimal StartingBid { get; set; }
-   
-   public string? ImagePath { get; set; }   
+   public decimal StartingBid { get; set; }   
    
    [Required]
    [Column(TypeName = "money")]
@@ -33,10 +33,15 @@ public class Listings
    
    [Required]
    public string? IdentityUserId { get; set; }
-   
-   [Required]
+
    [ForeignKey("IdentityUserId")]
-   public IdentityUser? User { get; set; }
+   public IdentityUser? IdentityUser { get; set; }
+   
+   [Column(TypeName = "money")]
+   public List<Bid> Bids { get; set; } = null!;
+
+   [Column(TypeName = "nvarchar(750)")]
+   public List<Comment> Comments { get; set; } = null!;
    
    
 }

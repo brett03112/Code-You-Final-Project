@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af8de1792a9fde5266e3b7427154241987f4dfa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0b4d8326de4346e86d91a67b933c2402c7d2fc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

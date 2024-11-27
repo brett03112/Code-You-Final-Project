@@ -19,9 +19,7 @@ public class Bid
     [ForeignKey("IdentityUserId")]
     public IdentityUser? User { get; set; }
 
-    [Required]
-    [Key]
-    [ForeignKey("Listing")]    
+    [Required]    
     public int? ListingId { get; set; }
 
     [Required]
