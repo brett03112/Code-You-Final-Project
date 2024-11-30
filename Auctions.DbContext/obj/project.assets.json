@@ -5002,8 +5002,8 @@
     },
     "Auctions.Models/1.0.0": {
       "type": "project",
-      "path": "../Auctions.models/Auctions.Models.csproj",
-      "msbuildProject": "../Auctions.models/Auctions.Models.csproj"
+      "path": "../Auctions.Models/Auctions.Models.csproj",
+      "msbuildProject": "../Auctions.Models/Auctions.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5046,8 +5046,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.models\\Auctions.Models.csproj": {
-              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.models\\Auctions.Models.csproj"
+            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.Models\\Auctions.Models.csproj": {
+              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.Models\\Auctions.Models.csproj"
             }
           }
         }

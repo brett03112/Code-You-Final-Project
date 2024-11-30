@@ -2,7 +2,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
-namespace AuctionApp.Models;
+
+namespace Auctions.Models;
 
 public class Listings
 {
@@ -18,11 +19,7 @@ public class Listings
    
    [Column(TypeName = "nvarchar(100)")]
    [StringLength(100)]
-   public string? Description { get; set; }
-
-   [Required]
-   [Column(TypeName = "money")]   
-   public decimal StartingBid { get; set; }   
+   public string? Description { get; set; }  
    
    [Required]
    [Column(TypeName = "money")]

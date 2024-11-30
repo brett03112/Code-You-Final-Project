@@ -2,15 +2,16 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace AuctionApp.Models;
+namespace Auctions.Models;
 
 public class Bid
 {
     [Key]
     public int BidId { get; set; }
-    
+
+    [Required]
     [Column(TypeName = "money")]
-    public decimal Price { get; set; }
+    public decimal StartingBid { get; set; }
 
     [Required]
     public string? IdentityUserId { get; set; }
@@ -19,7 +20,7 @@ public class Bid
     [ForeignKey("IdentityUserId")]
     public IdentityUser? User { get; set; }
 
-    [Required]    
+    [Required]
     public int? ListingId { get; set; }
 
     [Required]
