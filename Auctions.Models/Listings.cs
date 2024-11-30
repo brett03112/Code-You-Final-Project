@@ -38,10 +38,6 @@ public class Listings
    public IdentityUser? IdentityUser { get; set; }
    
    [Column(TypeName = "money")]
-   public List<Bid> Bids { get; set; } = null!;
-
-   [Column(TypeName = "nvarchar(750)")]
-   public List<Comment> Comments { get; set; } = null!;
-   
+   public List<Bid> Bids { get; set; } = null!;  
    
 }

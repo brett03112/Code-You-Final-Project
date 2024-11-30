@@ -2041,6 +2041,34 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Auctions.DbContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Auctions.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.sqlite": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Auctions.DbContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Auctions.DbContext.dll": {}
+        }
+      },
+      "Auctions.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
+          "Microsoft.Identity.Web.UI": "3.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Auctions.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Auctions.Models.dll": {}
+        }
       }
     }
   },
@@ -5381,10 +5409,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Auctions.DbContext/1.0.0": {
+      "type": "project",
+      "path": "../Auctions.DbContext/Auctions.DbContext.csproj",
+      "msbuildProject": "../Auctions.DbContext/Auctions.DbContext.csproj"
+    },
+    "Auctions.Models/1.0.0": {
+      "type": "project",
+      "path": "../Auctions.models/Auctions.Models.csproj",
+      "msbuildProject": "../Auctions.models/Auctions.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Auctions.DbContext >= 1.0.0",
+      "Auctions.Models >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
@@ -5426,7 +5466,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.DbContext\\Auctions.DbContext.csproj": {
+              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.DbContext\\Auctions.DbContext.csproj"
+            },
+            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.models\\Auctions.Models.csproj": {
+              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\Auctions.models\\Auctions.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

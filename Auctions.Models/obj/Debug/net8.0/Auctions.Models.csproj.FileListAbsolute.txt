@@ -1,0 +1,15 @@
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.csproj.AssemblyReference.cache
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.AssemblyInfoInputs.cache
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.AssemblyInfo.cs
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.csproj.CoreCompileInputs.cache
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.sourcelink.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\bin\Debug\net8.0\Auctions.Models.deps.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\bin\Debug\net8.0\Auctions.Models.runtimeconfig.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\bin\Debug\net8.0\Auctions.Models.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\bin\Debug\net8.0\Auctions.Models.pdb
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\refint\Auctions.Models.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.pdb
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\Auctions.Models.genruntimeconfig.cache
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\Auctions.models\obj\Debug\net8.0\ref\Auctions.Models.dll

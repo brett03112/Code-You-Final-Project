@@ -15,12 +15,4 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
-
-    public DbSet<Bid> Bids { get; set; }
-
-    public DbSet<Listings> Listings { get; set; }
-
-    public DbSet<Comment> Comments { get; set; }
-
-
 }
