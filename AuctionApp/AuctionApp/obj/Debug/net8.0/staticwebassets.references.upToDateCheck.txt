@@ -1,0 +1,4 @@
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\AuctionApp\AuctionApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\AuctionApp\AuctionApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\AuctionApp\AuctionApp.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\AuctionApp\AuctionApp.Client\obj\Debug\net8.0\staticwebassets.build.json

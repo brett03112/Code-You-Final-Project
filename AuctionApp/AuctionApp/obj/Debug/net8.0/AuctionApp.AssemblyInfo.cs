@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AuctionApp-55a316d1-40eb-42df-ad47-7a2a15c472ea")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AuctionApp-92dd19af-8f0b-400e-8146-39a33c8e49ec")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f650170a4ef7cbb56053b028abbde5ba8f5f1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61f462f31c8aae3a8eaba180898e21252cd5a201")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
