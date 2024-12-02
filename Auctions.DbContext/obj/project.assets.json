@@ -5010,7 +5010,8 @@
     "net8.0": [
       "Auctions.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
-      "Microsoft.EntityFrameworkCore.sqlite >= 9.0.0"
+      "Microsoft.EntityFrameworkCore.sqlite >= 9.0.0",
+      "Microsoft.Identity.Web.UI >= 3.4.0"
     ]
   },
   "packageFolders": {
@@ -5077,6 +5078,10 @@
           "Microsoft.EntityFrameworkCore.sqlite": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Microsoft.Identity.Web.UI": {
+            "target": "Package",
+            "version": "[3.4.0, )"
           }
         },
         "imports": [

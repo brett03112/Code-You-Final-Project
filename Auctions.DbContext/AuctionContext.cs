@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Auctions.Models;
 
 namespace Auctions.Context;
@@ -20,8 +17,6 @@ public class AuctionsContext : Microsoft.EntityFrameworkCore.DbContext
     public DbSet<Bid> Bids { get; set; }
 
     public DbSet<Listings> Listings { get; set; }
-
-    public DbSet<VerifiedUsers> Users { get; set; }
 
     public AuctionsContext()
     {

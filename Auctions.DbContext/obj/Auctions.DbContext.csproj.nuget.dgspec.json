@@ -64,6 +64,10 @@
             "Microsoft.EntityFrameworkCore.sqlite": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[3.4.0, )"
             }
           },
           "imports": [
