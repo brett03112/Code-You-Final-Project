@@ -1,1 +1,1 @@
-# Code-You-Auction-App-Final-Project
+# Code-You-Final-Project -- CommunityCenterApp
