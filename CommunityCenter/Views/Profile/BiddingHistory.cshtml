@@ -1,0 +1,69 @@
+﻿
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<CommunityCenterModels.Bid>
+@{
+    ViewData["Title"] = "Bidding History";
+}
+
+<div class="container py-5">
+    <h2>Bidding History</h2>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a asp-action="Index" class="list-group-item list-group-item-action">Profile</a>
+                <a asp-action="ChangePassword" class="list-group-item list-group-item-action">Change Password</a>
+                <a asp-action="BiddingHistory" class="list-group-item list-group-item-action active">Bidding History</a>
+                <a asp-action="WonAuctions" class="list-group-item list-group-item-action">Won Auctions</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Dessert</th>
+                            <th>Bid Amount</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var bid in Model)
+                        {
+                            <tr>
+                                <td>@bid.Dessert.Name</td>
+                                <td>$@bid.Amount.ToString("F2")</td>
+                                <td>@bid.TimeStamp.ToLocalTime().ToString("g")</td>
+                                <td>
+                                    @if (bid.Dessert.IsActive)
+                                    {
+                                        if (bid.Dessert.WinningBidderId == bid.BidderId)
+                                        {
+                                            <span class="badge bg-success">Leading</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning">Outbid</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (bid.Dessert.WinningBidderId == bid.BidderId)
+                                        {
+                                            <span class="badge bg-primary">Won</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">Lost</span>
+                                        }
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

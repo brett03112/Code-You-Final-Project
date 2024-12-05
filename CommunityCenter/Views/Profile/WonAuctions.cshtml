@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<CommunityCenterModels.Dessert>
+@{
+    ViewData["Title"] = "Won Auctions";
+}
+
+<div class="container py-5">
+    <h2>Won Auctions</h2>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a asp-action="Index" class="list-group-item list-group-item-action">Profile</a>
+                <a asp-action="ChangePassword" class="list-group-item list-group-item-action">Change Password</a>
+                <a asp-action="BiddingHistory" class="list-group-item list-group-item-action">Bidding History</a>
+                <a asp-action="WonAuctions" class="list-group-item list-group-item-action active">Won Auctions</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info">
+                    You haven't won any auctions yet. Keep bidding!
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    @foreach (var dessert in Model)
+                    {
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                @if (!string.IsNullOrEmpty(dessert.ImageUrl))
+                                {
+                                    <img src="@dessert.ImageUrl" class="card-img-top" alt="@dessert.Name">
+                                }
+                                <div class="card-body">
+                                    <h5 class="card-title">@dessert.Name</h5>
+                                    <p class="card-text">@dessert.Description</p>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Winning Bid:</strong> $@dessert.CurrentPrice.ToString("F2")</li>
+                                        <li><strong>Won On:</strong> @dessert.EndTime.ToLocalTime().ToString("g")</li>
+                                        <li><strong>Starting Price:</strong> $@dessert.StartingPrice.ToString("F2")</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Auction ended on @dessert.EndTime.ToLocalTime().ToString("D")</small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Summary</h5>
+                            <ul class="list-unstyled">
+                                <li><strong>Total Auctions Won:</strong> @Model.Count()</li>
+                                <li><strong>Total Spent:</strong> $@Model.Sum(d => d.CurrentPrice).ToString("F2")</li>
+                                <li><strong>Average Winning Bid:</strong> $@(Model.Average(d => d.CurrentPrice).ToString("F2"))</li>
+                                <li><strong>Highest Winning Bid:</strong> $@Model.Max(d => d.CurrentPrice).ToString("F2")</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>}
