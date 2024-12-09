@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RealTimeAuction.Client.props" />
+</Project>
