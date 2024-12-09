@@ -1,0 +1,4 @@
+e_sqlite3
+libSystem.Native
+libSystem.IO.Compression.Native
+libSystem.Globalization.Native

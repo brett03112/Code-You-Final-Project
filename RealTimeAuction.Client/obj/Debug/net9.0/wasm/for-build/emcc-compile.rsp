@@ -1,0 +1,12 @@
+-O0
+-g
+-v
+-fwasm-exceptions
+-DDISABLE_PERFTRACING_LISTEN_PORTS=1
+-DLINK_ICALLS=1
+-DGEN_PINVOKE=1
+-emit-llvm
+"-IC:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Client\obj\Debug\net9.0\wasm\for-build"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\9.0.0\runtimes\browser-wasm\native\include\mono-2.0"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\9.0.0\runtimes\browser-wasm\native\include\wasm"
+-g

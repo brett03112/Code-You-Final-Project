@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Client", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Server", "RealTimeAuction.Server\RealTimeAuction.Server.csproj", "{5DC2D47F-0F34-465C-B6C0-48918903B69B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Shared", "RealTimeAuction.Shared\RealTimeAuction.Shared.csproj", "{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

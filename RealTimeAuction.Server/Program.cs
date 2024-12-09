@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using RealTimeAuction.Server.Data;
 using RealTimeAuction.Server.Hubs;
-using RealTimeAuction.Server.Models;
+using RealTimeAuction.Shared.Data;
+using RealTimeAuction.Shared.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

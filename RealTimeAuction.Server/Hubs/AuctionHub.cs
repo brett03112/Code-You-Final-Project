@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
-using RealTimeAuction.Server.Data;
+using RealTimeAuction.Shared.Data;
 
 
 namespace RealTimeAuction.Server.Hubs

@@ -2148,6 +2148,21 @@
             "related": ".xml"
           }
         }
+      },
+      "RealTimeAuction.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RealTimeAuction.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealTimeAuction.Shared.dll": {}
+        }
       }
     }
   },
@@ -5930,6 +5945,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "RealTimeAuction.Shared/1.0.0": {
+      "type": "project",
+      "path": "../RealTimeAuction.Shared/RealTimeAuction.Shared.csproj",
+      "msbuildProject": "../RealTimeAuction.Shared/RealTimeAuction.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5940,6 +5960,7 @@
       "Microsoft.AspNetCore.SignalR >= 1.1.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
+      "RealTimeAuction.Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 7.1.0"
     ]
   },
@@ -5975,7 +5996,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\RealTimeAuction.Shared\\RealTimeAuction.Shared.csproj": {
+              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\RealTimeAuction.Shared\\RealTimeAuction.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

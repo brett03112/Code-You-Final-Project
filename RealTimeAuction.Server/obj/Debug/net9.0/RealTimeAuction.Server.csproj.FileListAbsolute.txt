@@ -151,3 +151,5 @@ C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\obj\Debug\net9.0\RealTimeAuction.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\RealTimeAuction.Shared.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\RealTimeAuction.Shared.pdb
