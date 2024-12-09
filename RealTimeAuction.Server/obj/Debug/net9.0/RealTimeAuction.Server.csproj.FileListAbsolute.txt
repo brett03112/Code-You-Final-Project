@@ -145,3 +145,9 @@ C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\obj\Debug\net9.0\RealTimeAuction.Server.csproj.AssemblyReference.cache
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\obj\Debug\net9.0\RealTime.AE4808B6.Up2Date
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Server\obj\Debug\net9.0\RealTimeAuction.Server.MvcApplicationPartsAssemblyInfo.cs
