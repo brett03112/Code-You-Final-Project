@@ -1,0 +1,24 @@
+{
+    "runtimeTarget": {
+        "name": ".NETCoreApp,Version=v9.0",
+        "signature": ""
+    },
+    "compilationOptions": {},
+    "targets": {
+        ".NETCoreApp,Version=v9.0": {
+            "RealTimeAuction.Shared/1.0.0": {
+                "dependencies": {
+                    "EfCore.SchemaCompare": "9.0.0",
+                    "Microsoft.AspNetCore.Identity": "2.2.0",
+                    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.0",
+                    "Microsoft.EntityFrameworkCore.Design": "9.0.0",
+                    "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
+                    "Microsoft.EntityFrameworkCore.Tools": "9.0.0"
+                },
+                "runtime": {
+                    "RealTimeAuction.Shared.dll": {}
+                }
+            }
+        }
+    }
+}

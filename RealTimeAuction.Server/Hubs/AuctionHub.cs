@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.SignalR;
-using RealTimeAuction.Shared.Data;
-
+using RealTimeAuction.Server.Data;
 
 namespace RealTimeAuction.Server.Hubs
 {

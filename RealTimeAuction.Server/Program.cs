@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RealTimeAuction.Server.Hubs;
-using RealTimeAuction.Shared.Data;
+using RealTimeAuction.Server.Data;
 using RealTimeAuction.Shared.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,9 +36,6 @@ app.MapHub<AuctionHub>("/auctionHub");
 app.MapGet("/api/desserts", [Authorize(Roles = "Admin")] async (ApplicationDbContext db) =>
     await db.Desserts.ToListAsync());
 
-/*
-    /api/desserts POST (Admin Only) for creating a new dessert
-*/
 app.MapPost("/api/desserts", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, Dessert dessert) =>
 {
     db.Desserts.Add(dessert);
@@ -46,9 +43,6 @@ app.MapPost("/api/desserts", [Authorize(Roles = "Admin")] async (ApplicationDbCo
     return Results.Created($"/api/desserts/{dessert.DessertId}", dessert);
 });
 
-/*
-    /api/desserts DELETE (Admin Only) for deleting a dessert
-*/
 app.MapDelete("/api/desserts/{id}", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, int id) =>
 {
     var dessert = await db.Desserts.FindAsync(id);
@@ -61,9 +55,6 @@ app.MapDelete("/api/desserts/{id}", [Authorize(Roles = "Admin")] async (Applicat
     return Results.NotFound();
 });
 
-/*
-    /api/desserts PUT (Admin Only) for updating a dessert
-*/
 app.MapPut("/api/desserts/{id}", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, int id, Dessert dessert) =>
 {
     var existingDessert = await db.Desserts.FindAsync(id);
@@ -78,9 +69,6 @@ app.MapPut("/api/desserts/{id}", [Authorize(Roles = "Admin")] async (Application
     return Results.NotFound();
 });
 
-/*
-    /api/auctions POST (Admin Only) for creating a new auction
-*/
 app.MapPost("/api/auctions", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, Auction auction) =>
 {
     db.Auctions.Add(auction);
@@ -88,9 +76,6 @@ app.MapPost("/api/auctions", [Authorize(Roles = "Admin")] async (ApplicationDbCo
     return Results.Created($"/api/auctions/{auction.AuctionId}", auction);
 });
 
-/*
-    /api/auctions PUT (Admin Only) for updating an auction
-*/
 app.MapPut("/api/auctions/{id}", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, int id, Auction auction) =>
 {
     var existingAuction = await db.Auctions.FindAsync(id);
@@ -105,10 +90,6 @@ app.MapPut("/api/auctions/{id}", [Authorize(Roles = "Admin")] async (Application
     return Results.NotFound();
 });
 
-
-/*
-    /api/auctions DELETE (Admin Only) for deleting an auction
-*/
 app.MapDelete("/api/auctions/{id}", [Authorize(Roles = "Admin")] async (ApplicationDbContext db, int id) =>
 {
     var auction = await db.Auctions.FindAsync(id);

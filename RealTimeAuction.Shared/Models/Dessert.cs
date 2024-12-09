@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RealTimeAuction.Shared.Models
 {
@@ -14,7 +11,9 @@ namespace RealTimeAuction.Shared.Models
         public decimal StartingBid { get; set; } = 25.00M;
         public decimal CurrentBid { get; set; }
         public string CurrentBidUser { get; set; } = string.Empty;
+        
         public decimal NewBid { get; set; }
+        
         public decimal WinningBid { get; set; }
         public string WinningUser { get; set; } = string.Empty;
     }
