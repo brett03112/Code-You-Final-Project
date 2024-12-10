@@ -14,6 +14,7 @@ namespace HolidayDessertStore.Data
 
         public DbSet<Dessert> Desserts { get; set; }
         public DbSet<PaymentModel> Payments { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -25,6 +26,12 @@ namespace HolidayDessertStore.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            // Configure CartItem
+            builder.Entity<CartItem>()
+                .HasOne(c => c.Dessert)
+                .WithMany()
+                .HasForeignKey(c => c.DessertId);
 
             // Configure PaymentModel
             builder.Entity<PaymentModel>()

@@ -6,6 +6,15 @@
 
 <div class="container">
     <h2>Our Holiday Desserts</h2>
+
+    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @Model.StatusMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
     <div class="row">
         @foreach (var dessert in Model.Desserts)
         {
@@ -18,9 +27,11 @@
                         <p class="card-text">Price: $@dessert.Price.ToString("F2")</p>
                         @if (dessert.IsAvailable)
                         {
-                            <button class="btn btn-primary buy-button" data-dessert-id="@dessert.Id">
-                                Buy Now
-                            </button>
+                            <form method="post" asp-page-handler="AddToCart" asp-route-dessertId="@dessert.Id">
+                                <button type="submit" class="btn btn-primary">
+                                    Add to Cart
+                                </button>
+                            </form>
                         }
                         else
                         {
@@ -32,3 +43,24 @@
         }
     </div>
 </div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1000;">
+    <a href="/Cart" class="btn btn-primary">
+        <i class="bi bi-cart"></i> View Cart
+    </a>
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-hide alert after 3 seconds
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                var alert = document.querySelector('.alert');
+                if (alert) {
+                    var bsAlert = new bootstrap.Alert(alert);
+                    bsAlert.close();
+                }
+            }, 3000);
+        });
+    </script>
+}

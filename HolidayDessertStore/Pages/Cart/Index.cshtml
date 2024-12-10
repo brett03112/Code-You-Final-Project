@@ -1,0 +1,64 @@
+@page
+@model HolidayDessertStore.Pages.Cart.IndexModel
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container">
+    <h2>Shopping Cart</h2>
+    @if (Model.CartItems.Any())
+    {
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@item.Dessert.ImagePath" alt="@item.Dessert.Name" style="width: 50px; height: 50px; object-fit: cover;" class="me-2">
+                                @item.Dessert.Name
+                            </td>
+                            <td>$@item.Price.ToString("F2")</td>
+                            <td>@item.Quantity</td>
+                            <td>$@((item.Price * item.Quantity).ToString("F2"))</td>
+                            <td>
+                                <form method="post" asp-page-handler="Remove" asp-route-id="@item.Id" class="d-inline">
+                                    <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                        <td><strong>$@Model.CartTotal.ToString("F2")</strong></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="d-flex justify-content-between">
+            <a href="/DessertShop" class="btn btn-secondary">Continue Shopping</a>
+            <form method="post" asp-page-handler="Checkout">
+                <button type="submit" class="btn btn-primary">Proceed to Checkout</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <div class="text-center my-5">
+            <h3>Your cart is empty</h3>
+            <a href="/DessertShop" class="btn btn-primary mt-3">Continue Shopping</a>
+        </div>
+    }
+</div>
