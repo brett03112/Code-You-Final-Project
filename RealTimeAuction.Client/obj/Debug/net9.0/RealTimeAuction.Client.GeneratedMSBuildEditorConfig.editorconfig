@@ -1,21 +1,17 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = false
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net9.0
 build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = false
+build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = browser
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RealTimeAuction.Client
 build_property.RootNamespace = RealTimeAuction.Client
 build_property.ProjectDir = C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\RealTimeAuction.Client\
 build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -24,34 +20,34 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/App.razor]
-build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/AuctionRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXVjdGlvblJvb20uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/AuctionRoom.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXVjdGlvblJvb20ucmF6b3I=
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-uly3xj4zx6
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-jkx9lctaex
+[C:/Users/brett/Desktop/Code-You-Auction-App-Final-Project/RealTimeAuction.Client/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8tn6r9ku0o

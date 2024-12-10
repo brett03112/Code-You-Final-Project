@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Client", "RealTimeAuction.Client\RealTimeAuction.Client.csproj", "{1288FD9C-1283-4BE8-9147-D7F154ADA947}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Server", "RealTimeAuction.Server\RealTimeAuction.Server.csproj", "{5DC2D47F-0F34-465C-B6C0-48918903B69B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Shared", "RealTimeAuction.Shared\RealTimeAuction.Shared.csproj", "{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAuction.Client", "RealTimeAuction.Client\RealTimeAuction.Client.csproj", "{48C2DC8E-6679-407C-B2F6-2E4A8C374613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1288FD9C-1283-4BE8-9147-D7F154ADA947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1288FD9C-1283-4BE8-9147-D7F154ADA947}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1288FD9C-1283-4BE8-9147-D7F154ADA947}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1288FD9C-1283-4BE8-9147-D7F154ADA947}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC2D47F-0F34-465C-B6C0-48918903B69B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{082460FB-72A6-4378-85DC-F5EFD1CDD9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C2DC8E-6679-407C-B2F6-2E4A8C374613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C2DC8E-6679-407C-B2F6-2E4A8C374613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C2DC8E-6679-407C-B2F6-2E4A8C374613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C2DC8E-6679-407C-B2F6-2E4A8C374613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -228,15 +228,15 @@ namespace RealTimeAuction.Server.Migrations
                         {
                             Id = "admin-id",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "08d3ec11-d29f-4754-b6be-8d8701c7249e",
+                            ConcurrencyStamp = "1ea7def7-d55f-43cd-a339-caddb802af8f",
                             Email = "admin@dessertauction.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@DESSERTAUCTION.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJrg9BPFff2TH/EgIgfCrqzMYVLxA2Vn3gTyX9EVfBpICv0N4cdF3KVja37zuGib8Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEITYQkukduvXHSUWhq9gykxoqqLFVVGg86NIa7DwJ0mS6tMRo82ceSjUqi3zjSqAlQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a3d5ee85-c25f-449e-ae42-14733703053b",
+                            SecurityStamp = "1a9d6132-f8d1-4f60-a739-dde56f28424c",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -261,6 +261,30 @@ namespace RealTimeAuction.Server.Migrations
                     b.HasKey("AuctionId");
 
                     b.ToTable("Auctions");
+                });
+
+            modelBuilder.Entity("RealTimeAuction.Shared.Models.BidSummary", b =>
+                {
+                    b.Property<int>("BidId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("HighestBid")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("HighestBidder")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("LastBidTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("TotalBids")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("BidId");
+
+                    b.ToTable("BidSummaries");
                 });
 
             modelBuilder.Entity("RealTimeAuction.Shared.Models.Dessert", b =>
@@ -303,6 +327,68 @@ namespace RealTimeAuction.Server.Migrations
                     b.HasKey("DessertId");
 
                     b.ToTable("Desserts");
+
+                    b.HasData(
+                        new
+                        {
+                            DessertId = 1,
+                            CurrentBid = 25.00m,
+                            CurrentBidUser = "",
+                            Description = "Smooth orange-flavored cheesecake with whipped cream and fresh orange slices",
+                            Name = "Orange Creamsicle Cheesecake",
+                            NewBid = 0m,
+                            StartingBid = 25.00m,
+                            WinningBid = 0m,
+                            WinningUser = ""
+                        },
+                        new
+                        {
+                            DessertId = 2,
+                            CurrentBid = 25.00m,
+                            CurrentBidUser = "",
+                            Description = "Classic key lime tart with whipped cream border",
+                            Name = "Key Lime Tart",
+                            NewBid = 0m,
+                            StartingBid = 25.00m,
+                            WinningBid = 0m,
+                            WinningUser = ""
+                        },
+                        new
+                        {
+                            DessertId = 3,
+                            CurrentBid = 25.00m,
+                            CurrentBidUser = "",
+                            Description = "Triple-layered vanilla cake with fresh strawberries and cream",
+                            Name = "Strawberry Shortcake",
+                            NewBid = 0m,
+                            StartingBid = 25.00m,
+                            WinningBid = 0m,
+                            WinningUser = ""
+                        },
+                        new
+                        {
+                            DessertId = 4,
+                            CurrentBid = 25.00m,
+                            CurrentBidUser = "",
+                            Description = "Traditional rhubarb pie with lattice crust",
+                            Name = "Rhubarb Pie",
+                            NewBid = 0m,
+                            StartingBid = 25.00m,
+                            WinningBid = 0m,
+                            WinningUser = ""
+                        },
+                        new
+                        {
+                            DessertId = 5,
+                            CurrentBid = 25.00m,
+                            CurrentBidUser = "",
+                            Description = "Chocolate bundt cake with coconut filling and shavings",
+                            Name = "German Chocolate Bundt Cake",
+                            NewBid = 0m,
+                            StartingBid = 25.00m,
+                            WinningBid = 0m,
+                            WinningUser = ""
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
