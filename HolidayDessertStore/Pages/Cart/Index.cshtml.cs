@@ -16,6 +16,8 @@ namespace HolidayDessertStore.Pages.Cart
 
         public List<CartItem> CartItems { get; set; } = new List<CartItem>();
         public decimal CartTotal { get; set; }
+        [TempData]
+        public string StatusMessage { get; set; }
 
         public async Task OnGetAsync()
         {
@@ -27,6 +29,24 @@ namespace HolidayDessertStore.Pages.Cart
         public async Task<IActionResult> OnPostRemoveAsync(int id)
         {
             await _cartService.RemoveFromCartAsync(id);
+            return RedirectToPage();
+        }
+
+        public async Task<IActionResult> OnPostUpdateQuantityAsync(int id, int quantity)
+        {
+            try
+            {
+                await _cartService.UpdateCartItemQuantityAsync(id, quantity);
+                StatusMessage = "Cart updated successfully";
+            }
+            catch (InvalidOperationException ex)
+            {
+                StatusMessage = ex.Message;
+            }
+            catch (Exception)
+            {
+                StatusMessage = "An error occurred while updating the cart";
+            }
             return RedirectToPage();
         }
 

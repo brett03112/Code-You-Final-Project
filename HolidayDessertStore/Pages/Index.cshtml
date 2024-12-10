@@ -1,5 +1,7 @@
 ﻿@page
+@using Microsoft.AspNetCore.Identity
 @model IndexModel
+@inject SignInManager<IdentityUser> SignInManager
 @{
     ViewData["Title"] = "Home";
 }
@@ -12,9 +14,12 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome to Broughtontown Holiday Desserts</h1>
-    <img src="~/images/holiday-table.jpg" class="img-fluid mt-4" alt="Holiday Table" />
+    <img src="~/images/home/christmas_table.jpg" class="img-fluid mt-4" alt="Christmas Table" />
     <div class="mt-4">
         <a href="/DessertShop" class="btn btn-primary btn-lg m-2">Visit Our Dessert Shop</a>
-        <a href="/Identity/Account/Login" class="btn btn-secondary btn-lg m-2">Login</a>
+        @if (!SignInManager.IsSignedIn(User))
+        {
+            <a href="/Identity/Account/Login" class="btn btn-secondary btn-lg m-2">Login</a>
+        }
     </div>
 </div>

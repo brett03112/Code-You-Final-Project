@@ -27,8 +27,14 @@ namespace HolidayDessertStore.Pages.DessertShop
             Desserts = await _context.Desserts.ToListAsync();
         }
 
-        public async Task<IActionResult> OnPostAddToCartAsync(int dessertId)
+        public async Task<IActionResult> OnPostAddToCartAsync(int dessertId, int quantity)
         {
+            if (quantity <= 0)
+            {
+                StatusMessage = "Please select a valid quantity.";
+                return RedirectToPage();
+            }
+
             var cartId = HttpContext.Session.GetString("CartId");
             if (string.IsNullOrEmpty(cartId))
             {
@@ -38,15 +44,19 @@ namespace HolidayDessertStore.Pages.DessertShop
 
             try
             {
-                await _cartService.AddToCartAsync(dessertId, cartId);
+                await _cartService.AddToCartAsync(dessertId, cartId, quantity);
                 StatusMessage = "Item added to cart successfully!";
-                return RedirectToPage();
             }
-            catch (Exception ex)
+            catch (InvalidOperationException ex)
+            {
+                StatusMessage = ex.Message;
+            }
+            catch (Exception)
             {
                 StatusMessage = "Error adding item to cart.";
-                return RedirectToPage();
             }
+            
+            return RedirectToPage();
         }
     }
 }

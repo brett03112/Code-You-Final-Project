@@ -6,6 +6,15 @@
 
 <div class="container">
     <h2>Shopping Cart</h2>
+
+    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            @Model.StatusMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
     @if (Model.CartItems.Any())
     {
         <div class="table-responsive">
@@ -14,6 +23,7 @@
                     <tr>
                         <th>Item</th>
                         <th>Price</th>
+                        <th>Available</th>
                         <th>Quantity</th>
                         <th>Total</th>
                         <th></th>
@@ -28,7 +38,17 @@
                                 @item.Dessert.Name
                             </td>
                             <td>$@item.Price.ToString("F2")</td>
-                            <td>@item.Quantity</td>
+                            <td>@item.Dessert.Quantity</td>
+                            <td>
+                                <form method="post" asp-page-handler="UpdateQuantity" asp-route-id="@item.Id" class="d-flex align-items-center">
+                                    <select name="quantity" class="form-select form-select-sm" style="width: auto;" onchange="this.form.submit()">
+                                        @for (int i = 1; i <= Math.Min(item.Dessert.Quantity, 10); i++)
+                                        {
+                                            <option value="@i" selected="@(i == item.Quantity)">@i</option>
+                                        }
+                                    </select>
+                                </form>
+                            </td>
                             <td>$@((item.Price * item.Quantity).ToString("F2"))</td>
                             <td>
                                 <form method="post" asp-page-handler="Remove" asp-route-id="@item.Id" class="d-inline">
@@ -40,7 +60,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                        <td colspan="4" class="text-end"><strong>Total:</strong></td>
                         <td><strong>$@Model.CartTotal.ToString("F2")</strong></td>
                         <td></td>
                     </tr>
@@ -62,3 +82,18 @@
         </div>
     }
 </div>
+
+@section Scripts {
+    <script>
+        // Auto-hide alert after 3 seconds
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                var alert = document.querySelector('.alert');
+                if (alert) {
+                    var bsAlert = new bootstrap.Alert(alert);
+                    bsAlert.close();
+                }
+            }, 3000);
+        });
+    </script>
+}

@@ -25,9 +25,19 @@
                         <h5 class="card-title">@dessert.Name</h5>
                         <p class="card-text">@dessert.Description</p>
                         <p class="card-text">Price: $@dessert.Price.ToString("F2")</p>
-                        @if (dessert.IsAvailable)
+                        <p class="card-text">Available: @dessert.Quantity</p>
+                        @if (dessert.Quantity > 0)
                         {
                             <form method="post" asp-page-handler="AddToCart" asp-route-dessertId="@dessert.Id">
+                                <div class="input-group mb-3">
+                                    <label class="input-group-text" for="quantity-@dessert.Id">Quantity</label>
+                                    <select class="form-select" name="quantity" id="quantity-@dessert.Id">
+                                        @for (int i = 1; i <= Math.Min(dessert.Quantity, 10); i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
                                 <button type="submit" class="btn btn-primary">
                                     Add to Cart
                                 </button>
