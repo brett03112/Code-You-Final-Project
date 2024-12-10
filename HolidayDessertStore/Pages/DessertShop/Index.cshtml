@@ -1,0 +1,34 @@
+@page
+@model DessertShopModel
+@{
+    ViewData["Title"] = "Dessert Shop";
+}
+
+<div class="container">
+    <h2>Our Holiday Desserts</h2>
+    <div class="row">
+        @foreach (var dessert in Model.Desserts)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@dessert.ImagePath" class="card-img-top" alt="@dessert.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@dessert.Name</h5>
+                        <p class="card-text">@dessert.Description</p>
+                        <p class="card-text">Price: $@dessert.Price.ToString("F2")</p>
+                        @if (dessert.IsAvailable)
+                        {
+                            <button class="btn btn-primary buy-button" data-dessert-id="@dessert.Id">
+                                Buy Now
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-secondary" disabled>Sold Out</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
