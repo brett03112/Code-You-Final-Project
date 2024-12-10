@@ -1,7 +1,9 @@
+using System;
 using HolidayDessertStore.Models;
 using HolidayDessertStore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 
 namespace HolidayDessertStore.Pages.Cart
 {
@@ -17,7 +19,7 @@ namespace HolidayDessertStore.Pages.Cart
         public List<CartItem> CartItems { get; set; } = new List<CartItem>();
         public decimal CartTotal { get; set; }
         [TempData]
-        public string StatusMessage { get; set; }
+        public string? StatusMessage { get; set; }
 
         public async Task OnGetAsync()
         {

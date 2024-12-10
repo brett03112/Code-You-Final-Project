@@ -1,9 +1,11 @@
+using System;
 using HolidayDessertStore.Data;
 using HolidayDessertStore.Models;
 using HolidayDessertStore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 
 namespace HolidayDessertStore.Pages.DessertShop
 {
@@ -18,9 +20,9 @@ namespace HolidayDessertStore.Pages.DessertShop
             _cartService = cartService;
         }
 
-        public IList<Dessert> Desserts { get; set; }
+        public IList<Dessert> Desserts { get; set; } = new List<Dessert>();
         [TempData]
-        public string StatusMessage { get; set; }
+        public string? StatusMessage { get; set; }
 
         public async Task OnGetAsync()
         {

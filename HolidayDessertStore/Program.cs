@@ -3,8 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using HolidayDessertStore.Data;
 using HolidayDessertStore.Services;
 using Stripe;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Stripe
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -25,9 +29,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => {
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddRazorPages();
+builder.Services.AddControllers(); // Add back controllers support
 
 // Register services
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<WeatherService>();
 
 // Add session support
 builder.Services.AddDistributedMemoryCache();
@@ -38,12 +45,21 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+// Add Swagger services
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Holiday Dessert Store API", Version = "v1" });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
@@ -57,10 +73,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();
 
 app.MapRazorPages();
+app.MapControllers();
 
 app.Run();

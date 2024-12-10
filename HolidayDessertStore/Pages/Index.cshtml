@@ -23,3 +23,71 @@
         }
     </div>
 </div>
+
+@if (Model.WeatherData?.Current != null && Model.WeatherData?.Forecast?.Forecastday != null)
+{
+    <div class="weather-box mt-5 mb-4">
+        <h3 class="text-center mb-4">Local Weather for Broughtontown</h3>
+        <div class="weather-grid">
+            <div class="weather-item current">
+                <h4>Current Weather</h4>
+                <p class="temp">@Model.WeatherData.Current.Temp_f.ToString("F1")°F</p>
+                <p class="condition">@Model.WeatherData.Current.Condition.Text</p>
+            </div>
+            @foreach (var forecast in Model.WeatherData.Forecast.Forecastday.Skip(1).Take(3))
+            {
+                <div class="weather-item">
+                    <h4>@DateTime.Parse(forecast.Date).ToString("MMM dd")</h4>
+                    <p class="temp-range">@forecast.Day.Mintemp_f.ToString("F1")°F - @forecast.Day.Maxtemp_f.ToString("F1")°F</p>
+                    <p class="condition">@forecast.Day.Condition.Text</p>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+<style>
+    .weather-box {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    .weather-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        text-align: center;
+    }
+
+    .weather-item {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .weather-item.current {
+        background-color: #e3f2fd;
+    }
+
+    .weather-item h4 {
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+
+    .weather-item .temp,
+    .weather-item .temp-range {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #0d6efd;
+        margin: 10px 0;
+    }
+
+    .weather-item .condition {
+        color: #6c757d;
+    }
+</style>
