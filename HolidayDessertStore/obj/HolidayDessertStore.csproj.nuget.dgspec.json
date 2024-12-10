@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {}
+    "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {
+    "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
         "projectName": "HolidayDessertStore",
-        "projectPath": "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
+        "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

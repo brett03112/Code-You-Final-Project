@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ixx6JDomKK4=",
+  "dgSpecHash": "d8OrAUOW6tQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Desktop\\Final-Proj\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0\\microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",
