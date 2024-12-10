@@ -156,6 +156,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oqfoxrkqqw"},{"Name":"integrity","Value":"sha256-UM2Hu\u002BV90uvvAH/3FvMMJ2n\u002B84PRyOFScPSvx13JheU="},{"Name":"label","Value":"_content/HolidayDessertStore/images/desserts/strawberry_shortcake.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1301128"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022UM2Hu\u002BV90uvvAH/3FvMMJ2n\u002B84PRyOFScPSvx13JheU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 17:16:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/images/home/christmas_table.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\home\christmas_table.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VciwF7ll2Vd4ICVGuWa0t\u002BNFgGD3tE8IhQKbP6G5\u002BHA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1544100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VciwF7ll2Vd4ICVGuWa0t\u002BNFgGD3tE8IhQKbP6G5\u002BHA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 17:31:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/images/home/christmas_table.x5gmlar255.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\home\christmas_table.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x5gmlar255"},{"Name":"integrity","Value":"sha256-VciwF7ll2Vd4ICVGuWa0t\u002BNFgGD3tE8IhQKbP6G5\u002BHA="},{"Name":"label","Value":"_content/HolidayDessertStore/images/home/christmas_table.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1544100"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VciwF7ll2Vd4ICVGuWa0t\u002BNFgGD3tE8IhQKbP6G5\u002BHA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 17:31:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

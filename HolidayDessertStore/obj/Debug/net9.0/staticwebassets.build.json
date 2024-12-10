@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SDBJSglh4KvhUzSRzglhHkT4HUlKk5yCifKsAAyYJC0=",
+  "Hash": "6VY057KhgDtitcnmOW0Bwxtt7vVEOxGJy/B9NyHGDzA=",
   "Source": "HolidayDessertStore",
   "BasePath": "_content/HolidayDessertStore",
   "Mode": "Default",
@@ -4278,6 +4278,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\desserts\\strawberry_shortcake.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\images\\home\\christmas_table.jpg",
+      "SourceId": "HolidayDessertStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\",
+      "BasePath": "_content/HolidayDessertStore",
+      "RelativePath": "images/home/christmas_table#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5gmlar255",
+      "Integrity": "VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\christmas_table.jpg"
     },
     {
       "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\js\\site.js",
@@ -16176,6 +16197,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-UM2Hu+V90uvvAH/3FvMMJ2n+84PRyOFScPSvx13JheU="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/christmas_table.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\images\\home\\christmas_table.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1544100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA="
+        }
+      ]
+    },
+    {
+      "Route": "images/home/christmas_table.x5gmlar255.jpg",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\images\\home\\christmas_table.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1544100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 17:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5gmlar255"
+        },
+        {
+          "Name": "label",
+          "Value": "images/home/christmas_table.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VciwF7ll2Vd4ICVGuWa0t+NFgGD3tE8IhQKbP6G5+HA="
         }
       ]
     },

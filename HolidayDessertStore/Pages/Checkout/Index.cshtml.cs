@@ -1,7 +1,10 @@
 using HolidayDessertStore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Stripe;
 using Stripe.Checkout;
+using Microsoft.Extensions.Options;
+using HolidayDessertStore.Models;
 
 namespace HolidayDessertStore.Pages.Checkout
 {
@@ -9,55 +12,94 @@ namespace HolidayDessertStore.Pages.Checkout
     {
         private readonly IShoppingCartService _cartService;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<IndexModel> _logger;
+        private readonly IWebHostEnvironment _environment;
 
-        public IndexModel(IShoppingCartService cartService, IConfiguration configuration)
+        public IndexModel(IShoppingCartService cartService, IConfiguration configuration, ILogger<IndexModel> logger, IWebHostEnvironment environment)
         {
             _cartService = cartService;
             _configuration = configuration;
+            _logger = logger;
+            _environment = environment;
         }
 
         public async Task<IActionResult> OnGetAsync()
         {
-            var cartId = HttpContext.Session.GetString("CartId");
-            if (string.IsNullOrEmpty(cartId))
+            if (!Request.Headers.Accept.Contains("application/json"))
             {
-                return RedirectToPage("/Cart/Index");
+                return Page();
             }
 
-            var cartItems = await _cartService.GetCartItemsAsync(cartId);
-            if (!cartItems.Any())
+            try
             {
-                return RedirectToPage("/Cart/Index");
-            }
-
-            var domain = $"{Request.Scheme}://{Request.Host}";
-            var options = new SessionCreateOptions
-            {
-                PaymentMethodTypes = new List<string> { "card" },
-                LineItems = cartItems.Select(item => new SessionLineItemOptions
+                var cartId = HttpContext.Session.GetString("CartId");
+                if (string.IsNullOrEmpty(cartId))
                 {
-                    PriceData = new SessionLineItemPriceDataOptions
+                    return new JsonResult(new { error = "No cart found" }) { StatusCode = 400 };
+                }
+
+                var cartItems = await _cartService.GetCartItemsAsync(cartId);
+                if (!cartItems.Any())
+                {
+                    return new JsonResult(new { error = "Cart is empty" }) { StatusCode = 400 };
+                }
+
+                var domain = $"{Request.Scheme}://{Request.Host}";
+                var options = new SessionCreateOptions
+                {
+                    PaymentMethodTypes = new List<string> { "card" },
+                    LineItems = cartItems.Select(item =>
                     {
-                        UnitAmount = (long)(item.Price * 100), // Convert to cents
-                        Currency = "usd",
-                        ProductData = new SessionLineItemPriceDataProductDataOptions
+                        var lineItem = new SessionLineItemOptions
                         {
-                            Name = item.Dessert.Name,
-                            Description = item.Dessert.Description,
-                            Images = new List<string> { $"{domain}{item.Dessert.ImagePath}" }
+                            PriceData = new SessionLineItemPriceDataOptions
+                            {
+                                UnitAmount = (long)(item.Price * 100), // Convert to cents
+                                Currency = "usd",
+                                ProductData = new SessionLineItemPriceDataProductDataOptions
+                                {
+                                    Name = item.Dessert.Name,
+                                    Description = item.Dessert.Description,
+                                }
+                            },
+                            Quantity = item.Quantity
+                        };
+
+                        // Only include images if we're not in development environment
+                        if (!_environment.IsDevelopment())
+                        {
+                            var imageUrl = $"{domain}/images/desserts/{System.IO.Path.GetFileName(item.Dessert.ImagePath)}";
+                            _logger.LogInformation($"Creating line item for {item.Dessert.Name} with image URL: {imageUrl}");
+                            lineItem.PriceData.ProductData.Images = new List<string> { imageUrl };
                         }
-                    },
-                    Quantity = item.Quantity
-                }).ToList(),
-                Mode = "payment",
-                SuccessUrl = $"{domain}/Checkout/Success",
-                CancelUrl = $"{domain}/Cart"
-            };
 
-            var service = new SessionService();
-            var session = await service.CreateAsync(options);
+                        return lineItem;
+                    }).ToList(),
+                    Mode = "payment",
+                    SuccessUrl = $"{domain}/Checkout/Success",
+                    CancelUrl = $"{domain}/Cart",
+                    CustomerEmail = User.Identity?.IsAuthenticated == true ? User.Identity.Name : null,
+                    PaymentIntentData = new SessionPaymentIntentDataOptions
+                    {
+                        CaptureMethod = "automatic"
+                    }
+                };
 
-            return new JsonResult(new { id = session.Id });
+                var service = new SessionService();
+                var session = await service.CreateAsync(options);
+
+                return new JsonResult(new { id = session.Id });
+            }
+            catch (StripeException e)
+            {
+                _logger.LogError($"Stripe error: {e.Message}");
+                return new JsonResult(new { error = e.Message }) { StatusCode = 400 };
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Checkout error: {ex.Message}");
+                return new JsonResult(new { error = "An error occurred while processing your request." }) { StatusCode = 500 };
+            }
         }
     }
 }

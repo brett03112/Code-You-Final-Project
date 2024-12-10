@@ -1,0 +1,124 @@
+@page
+@model HolidayDessertStore.Pages.Admin.DessertManagementModel
+@{
+    ViewData["Title"] = "Dessert Management";
+}
+
+<div class="container mt-4">
+    <h2>Dessert Management</h2>
+
+    <!-- Create Dessert Form -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h4>Create New Dessert</h4>
+        </div>
+        <div class="card-body">
+            <form id="createDessertForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea class="form-control" id="description" name="description" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" step="0.01" class="form-control" id="price" name="price" required>
+                </div>
+                <div class="mb-3">
+                    <label for="imagePath" class="form-label">Image Path</label>
+                    <input type="text" class="form-control" id="imagePath" name="imagePath" required>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="isAvailable" name="isAvailable" checked>
+                        <label class="form-check-label" for="isAvailable">Available</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Create Dessert</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Update/Delete Dessert Section -->
+    <div class="card">
+        <div class="card-header">
+            <h4>Manage Existing Desserts</h4>
+        </div>
+        <div class="card-body">
+            <div id="dessertsList">
+                <!-- Desserts will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Function to handle API calls
+        async function apiCall(url, method, data) {
+            try {
+                const response = await fetch(url, {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: data ? JSON.stringify(data) : null
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                return await response.json();
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred: ' + error.message);
+            }
+        }
+
+        // Create dessert
+        document.getElementById('createDessertForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = {
+                name: document.getElementById('name').value,
+                description: document.getElementById('description').value,
+                price: parseFloat(document.getElementById('price').value),
+                imagePath: document.getElementById('imagePath').value,
+                isAvailable: document.getElementById('isAvailable').checked
+            };
+
+            await apiCall('/api/DessertManagement', 'POST', formData);
+            loadDesserts(); // Refresh the list
+            e.target.reset();
+        });
+
+        // Load desserts
+        async function loadDesserts() {
+            const desserts = await apiCall('/api/DessertManagement', 'GET');
+            const dessertsHtml = desserts.map(dessert => `
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">${dessert.name}</h5>
+                        <p class="card-text">${dessert.description}</p>
+                        <p class="card-text">Price: $${dessert.price}</p>
+                        <button onclick="deleteDessert(${dessert.id})" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            `).join('');
+            document.getElementById('dessertsList').innerHTML = dessertsHtml;
+        }
+
+        // Delete dessert
+        async function deleteDessert(id) {
+            if (confirm('Are you sure you want to delete this dessert?')) {
+                await apiCall(`/api/DessertManagement/${id}`, 'DELETE');
+                loadDesserts(); // Refresh the list
+            }
+        }
+
+        // Load desserts when page loads
+        document.addEventListener('DOMContentLoaded', loadDesserts);
+    </script>
+}

@@ -559,3 +559,8 @@ C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\ob
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\obj\Debug\net9.0\HolidayDessertStore.pdb
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\obj\Debug\net9.0\HolidayDessertStore.genruntimeconfig.cache
 C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\obj\Debug\net9.0\ref\HolidayDessertStore.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\brett\Desktop\Code-You-Auction-App-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

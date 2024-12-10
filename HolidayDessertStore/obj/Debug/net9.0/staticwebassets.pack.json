@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\images\\desserts\\strawberry_shortcake.jpg"
     },
     {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\images\\home\\christmas_table.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\christmas_table.jpg"
+    },
+    {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

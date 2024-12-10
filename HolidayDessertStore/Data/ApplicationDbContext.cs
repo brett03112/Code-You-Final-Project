@@ -82,6 +82,7 @@ namespace HolidayDessertStore.Data
                     Description = "Smooth cheesecake topped with orange glaze and fresh orange slices, decorated with whipped cream rosettes",
                     Price = 45.99M,
                     ImagePath = "/images/desserts/orange_slice_cheesecake.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -91,6 +92,7 @@ namespace HolidayDessertStore.Data
                     Description = "Classic key lime tart with graham cracker crust and whipped cream border",
                     Price = 35.99M,
                     ImagePath = "/images/desserts/key_lime_pie.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -100,6 +102,7 @@ namespace HolidayDessertStore.Data
                     Description = "Traditional rhubarb pie with lattice top crust and crystallized sugar finish",
                     Price = 32.99M,
                     ImagePath = "/images/desserts/strawberry_rhubarb_pie.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -109,6 +112,7 @@ namespace HolidayDessertStore.Data
                     Description = "Three-layer vanilla cake with fresh strawberries and whipped cream frosting",
                     Price = 48.99M,
                     ImagePath = "/images/desserts/strawberry_shortcake.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -118,6 +122,7 @@ namespace HolidayDessertStore.Data
                     Description = "Chocolate bundt cake filled with coconut-pecan filling and topped with shredded coconut",
                     Price = 39.99M,
                     ImagePath = "/images/desserts/German_chocolate_bundt_cake.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -127,6 +132,7 @@ namespace HolidayDessertStore.Data
                     Description = "Rich, gooey brownies with melted chocolate centers, perfect for chocolate lovers",
                     Price = 24.99M,
                     ImagePath = "/images/desserts/brownies.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -136,6 +142,7 @@ namespace HolidayDessertStore.Data
                     Description = "Classic cinnamon-sugar cookies with a festive twist, perfect with hot cocoa",
                     Price = 18.99M,
                     ImagePath = "/images/desserts/snickerdoodle_cookies.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -145,6 +152,7 @@ namespace HolidayDessertStore.Data
                     Description = "Warm, flaky crust filled with sweet peaches and spices, served with candlelight ambiance",
                     Price = 28.99M,
                     ImagePath = "/images/desserts/peach_cobbler.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -154,6 +162,7 @@ namespace HolidayDessertStore.Data
                     Description = "Traditional lattice-topped apple pie with cinnamon and spices, surrounded by fall decorations",
                     Price = 32.99M,
                     ImagePath = "/images/desserts/apple_pie.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 },
                 new Dessert
@@ -163,6 +172,7 @@ namespace HolidayDessertStore.Data
                     Description = "Creamy vanilla pudding layered with fresh bananas, vanilla wafers, and caramel drizzle",
                     Price = 22.99M,
                     ImagePath = "/images/desserts/banana_pudding.jpg",
+                    Quantity = 10,
                     IsAvailable = true
                 }
             );

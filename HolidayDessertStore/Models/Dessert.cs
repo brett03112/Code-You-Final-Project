@@ -20,6 +20,10 @@ namespace HolidayDessertStore.Models
         public string ImagePath { get; set; }
 
         [Required]
+        [Range(1, 100)]
+        public int Quantity { get; set; }
+
+        [Required]
         public bool IsAvailable { get; set; }
     }
 }

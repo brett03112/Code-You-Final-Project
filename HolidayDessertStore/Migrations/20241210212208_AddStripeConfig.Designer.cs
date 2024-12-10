@@ -3,6 +3,7 @@ using System;
 using HolidayDessertStore.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HolidayDessertStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241210212208_AddStripeConfig")]
+    partial class AddStripeConfig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
@@ -68,9 +71,6 @@ namespace HolidayDessertStore.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.ToTable("Desserts");
@@ -83,8 +83,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/orange_slice_cheesecake.jpg",
                             IsAvailable = true,
                             Name = "Orange Creamsicle Cheesecake",
-                            Price = 45.99m,
-                            Quantity = 10
+                            Price = 45.99m
                         },
                         new
                         {
@@ -93,8 +92,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/key_lime_pie.jpg",
                             IsAvailable = true,
                             Name = "Key Lime Tart",
-                            Price = 35.99m,
-                            Quantity = 10
+                            Price = 35.99m
                         },
                         new
                         {
@@ -103,8 +101,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/strawberry_rhubarb_pie.jpg",
                             IsAvailable = true,
                             Name = "Rhubarb Pie",
-                            Price = 32.99m,
-                            Quantity = 10
+                            Price = 32.99m
                         },
                         new
                         {
@@ -113,8 +110,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/strawberry_shortcake.jpg",
                             IsAvailable = true,
                             Name = "Strawberry Layer Cake",
-                            Price = 48.99m,
-                            Quantity = 10
+                            Price = 48.99m
                         },
                         new
                         {
@@ -123,8 +119,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/German_chocolate_bundt_cake.jpg",
                             IsAvailable = true,
                             Name = "German Chocolate Bundt Cake",
-                            Price = 39.99m,
-                            Quantity = 10
+                            Price = 39.99m
                         },
                         new
                         {
@@ -133,8 +128,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/brownies.jpg",
                             IsAvailable = true,
                             Name = "Double Chocolate Fudge Brownies",
-                            Price = 24.99m,
-                            Quantity = 10
+                            Price = 24.99m
                         },
                         new
                         {
@@ -143,8 +137,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/snickerdoodle_cookies.jpg",
                             IsAvailable = true,
                             Name = "Holiday Snickerdoodle Cookies",
-                            Price = 18.99m,
-                            Quantity = 10
+                            Price = 18.99m
                         },
                         new
                         {
@@ -153,8 +146,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/peach_cobbler.jpg",
                             IsAvailable = true,
                             Name = "Fresh Peach Cobbler",
-                            Price = 28.99m,
-                            Quantity = 10
+                            Price = 28.99m
                         },
                         new
                         {
@@ -163,8 +155,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/apple_pie.jpg",
                             IsAvailable = true,
                             Name = "Classic Apple Pie",
-                            Price = 32.99m,
-                            Quantity = 10
+                            Price = 32.99m
                         },
                         new
                         {
@@ -173,8 +164,7 @@ namespace HolidayDessertStore.Migrations
                             ImagePath = "/images/desserts/banana_pudding.jpg",
                             IsAvailable = true,
                             Name = "Banana Pudding Delight",
-                            Price = 22.99m,
-                            Quantity = 10
+                            Price = 22.99m
                         });
                 });
 
@@ -410,15 +400,15 @@ namespace HolidayDessertStore.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3128d6be-9e9b-4357-8dd3-51f83d2b636a",
+                            ConcurrencyStamp = "2751561d-9ffa-43c2-b815-b5b65cc7f736",
                             Email = "admin@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@EXAMPLE.COM",
                             NormalizedUserName = "ADMIN@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAENJVGVNRj2IaVsvy3BZS00s7SA6nduKu/p4vw4zxe0ikrcriKz7e2s+Z8LNK9E9Vpw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOoaIPBy0uCN7ATgmoZOZGvqR/7oVhf4j4+i1sF55hVmcLNgEEfmyvpUWjqDJvPz9A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "95617d82-19b9-4e37-9a56-6044c6bc85da",
+                            SecurityStamp = "81bd5f42-7acd-4fc2-a4f0-8b5fe74bb988",
                             TwoFactorEnabled = false,
                             UserName = "admin@example.com"
                         });
