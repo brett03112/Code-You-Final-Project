@@ -40,18 +40,18 @@ Ensure that the external api keys are configured correctly.
 
 '''bash
     Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs
-    Line 97, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
-    method at _apiKey = "";.
-    The weatherapi.com api key must be entered.
+Line 97, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
+method at _apiKey = "";.
+The weatherapi.com api key must be entered.
 '''
 
 '''bash
     Code-You-Final-Project/HolidayDessertStore/appsettings.json
-    Here you must enter the (2) API keys from Stripe.com
+Here you must enter the (2) API keys from Stripe.com
 
-    SecretKey: ""
+SecretKey: ""
 
-    PublishableKey: ""
+PublishableKey: ""
 
 '''
 
@@ -59,39 +59,39 @@ User Logins
 
 '''bash
     primary user: <admin@example.com>
-    password: "admin00"
+password: "admin00"
 '''
 
 SwaggerUI for CRUD
 
 '''bash
     You must be logged in under the "admin" user role above.
-    Go to: <https://localhost:7056/swagger>
+Go to: <https://localhost:7056/swagger>
 '''
 
 Testing
 
 '''bash
     The tests are ran using an in-memory database provided by:
-    "Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0"
+"Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0"
 
-    Go to Code-You-Final-Project/HolidayDessertStore.Tests
-    Run the following: dotnet test
+Go to Code-You-Final-Project/HolidayDessertStore.Tests
+Run the following: dotnet test
 
-    There are (4) tests
-    1:  public async Task AddToCart_WithValidQuantity_ShouldAddItemAndUpdateStock()
-    which tests adding items to the cart and updating the available items.
+There are (4) tests
+1:  public async Task AddToCart_WithValidQuantity_ShouldAddItemAndUpdateStock()
+which tests adding items to the cart and updating the available items.
 
-    2:  public async Task AddToCart_ExceedingAvailableQuantity_ShouldThrowException()
-    which tests that calling the "ShoppingCartService.AddToCartAsync" with a quantity that
-    exceeds that available stock will throw an exception.
+2:  public async Task AddToCart_ExceedingAvailableQuantity_ShouldThrowException()
+which tests that calling the "ShoppingCartService.AddToCartAsync" with a quantity that
+exceeds that available stock will throw an exception.
 
-    3:  public async Task GetCartTotal_WithMultipleItems_ShouldCalculateCorrectTotal()
-    Make sure that the correct total is returned with multiple items in the cart.
+3:  public async Task GetCartTotal_WithMultipleItems_ShouldCalculateCorrectTotal()
+Make sure that the correct total is returned with multiple items in the cart.
 
-    4:  public async Task UpdateCartItemQuantity_ShouldUpdateQuantityAndStock()
-    Ensures that the service can correctly update the quantity of an item in a cart
-    and update the available stock accordingly.
+4:  public async Task UpdateCartItemQuantity_ShouldUpdateQuantityAndStock()
+Ensures that the service can correctly update the quantity of an item in a cart
+and update the available stock accordingly.
 '''
 
 ## All API Keys are found in the Final Project Submission form.
