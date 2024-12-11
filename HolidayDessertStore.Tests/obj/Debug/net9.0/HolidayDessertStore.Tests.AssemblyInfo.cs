@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolidayDessertStore.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61e72aacc8241f4992a665c99779a5f08194ed05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78fa27755fb08c0692ec38a15fc6a178911d0320")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolidayDessertStore.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolidayDessertStore.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
