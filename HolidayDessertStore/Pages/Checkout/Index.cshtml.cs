@@ -3,8 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Stripe;
 using Stripe.Checkout;
-using Microsoft.Extensions.Options;
-using HolidayDessertStore.Models;
 
 namespace HolidayDessertStore.Pages.Checkout
 {
@@ -15,6 +13,13 @@ namespace HolidayDessertStore.Pages.Checkout
         private readonly ILogger<IndexModel> _logger;
         private readonly IWebHostEnvironment _environment;
 
+        /// <summary>
+        /// Constructor for IndexModel, which is used to initialize an instance of Checkout.IndexModel.
+        /// </summary>
+        /// <param name="cartService">The <see cref="IShoppingCartService"/> instance used to access the contents of the user's cart.</param>
+        /// <param name="configuration">The <see cref="IConfiguration"/> instance containing configuration data.</param>
+        /// <param name="logger">The <see cref="ILogger{IndexModel}"/> instance used to write log messages.</param>
+        /// <param name="environment">The <see cref="IWebHostEnvironment"/> instance containing information about the hosting environment.</param>
         public IndexModel(IShoppingCartService cartService, IConfiguration configuration, ILogger<IndexModel> logger, IWebHostEnvironment environment)
         {
             _cartService = cartService;
@@ -23,6 +28,16 @@ namespace HolidayDessertStore.Pages.Checkout
             _environment = environment;
         }
 
+        /// <summary>
+        /// Handles the GET request for the checkout page.
+        /// </summary>
+        /// <returns>
+        /// An <see cref="IActionResult"/> containing the JSON response.
+        /// </returns>
+        /// <remarks>
+        /// This method is called when the user navigates to the checkout page.
+        /// It returns a JSON response that contains the ID of the Stripe session.
+        /// </remarks>
         public async Task<IActionResult> OnGetAsync()
         {
             if (!Request.Headers.Accept.Contains("application/json"))

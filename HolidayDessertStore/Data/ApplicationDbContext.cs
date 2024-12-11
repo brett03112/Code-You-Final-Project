@@ -16,6 +16,15 @@ namespace HolidayDessertStore.Data
         public DbSet<PaymentModel> Payments { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
 
+        /// <summary>
+        /// Called just before the <see cref="DbContext"/> builds the
+        /// <see cref="DbContextOptions"/>.  This is an opportunity to set
+        /// options that affect the entire application, such as the connection
+        /// string or the database provider.
+        /// </summary>
+        /// <param name="optionsBuilder">
+        /// The builder being used to construct the <see cref="DbContextOptions"/>.
+        /// </param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
@@ -23,6 +32,13 @@ namespace HolidayDessertStore.Data
                 warnings.Ignore(Microsoft.EntityFrameworkCore.Diagnostics.RelationalEventId.PendingModelChangesWarning));
         }
 
+        /// <summary>
+        /// Called when the model for a derived context is being created.
+        /// This method is called after the model for the base <see cref="DbContext" />
+        /// has been created.  The model for the derived context is the union of the
+        /// base model and this model.
+        /// </summary>
+        /// <param name="builder">The builder being used to construct the model.</param>
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

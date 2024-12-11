@@ -4,26 +4,27 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HolidayDessertStore.Services
 {
-    public interface IShoppingCartService
-    {
-        Task<CartItem> AddToCartAsync(int dessertId, string cartId, int quantity);
-        Task<List<CartItem>> GetCartItemsAsync(string cartId);
-        Task<decimal> GetCartTotalAsync(string cartId);
-        Task RemoveFromCartAsync(int cartItemId);
-        Task ClearCartAsync(string cartId);
-        Task UpdateCartItemQuantityAsync(int cartItemId, int quantity);
-        Task<int> GetAvailableQuantityAsync(int dessertId);
-    }
-
     public class ShoppingCartService : IShoppingCartService
     {
         private readonly ApplicationDbContext _context;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ShoppingCartService"/> class with the specified <see cref="ApplicationDbContext"/>.</summary>
+        /// <param name="context">The database context.</param>
         public ShoppingCartService(ApplicationDbContext context)
         {
             _context = context;
         }
 
+        /// <summary>
+        /// Adds the specified quantity of a dessert to a cart.
+        /// </summary>
+        /// <param name="dessertId">The ID of the dessert to add.</param>
+        /// <param name="cartId">The ID of the cart.</param>
+        /// <param name="quantity">The quantity of the dessert to add.</param>
+        /// <returns>The updated cart item.</returns>
+        /// <exception cref="ArgumentException">The dessert with the specified ID does not exist.</exception>
+        /// <exception cref="InvalidOperationException">The requested quantity exceeds the available stock.</exception>
         public async Task<CartItem> AddToCartAsync(int dessertId, string cartId, int quantity)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -76,6 +77,11 @@ namespace HolidayDessertStore.Services
             }
         }
 
+        /// <summary>
+        /// Retrieves a list of all cart items in a given cart.
+        /// </summary>
+        /// <param name="cartId">The ID of the cart.</param>
+        /// <returns>A list of cart items.</returns>
         public async Task<List<CartItem>> GetCartItemsAsync(string cartId)
         {
             return await _context.CartItems
@@ -84,6 +90,11 @@ namespace HolidayDessertStore.Services
                 .ToListAsync();
         }
 
+        /// <summary>
+        /// Calculates the total cost of all items in a given cart.
+        /// </summary>
+        /// <param name="cartId">The ID of the cart.</param>
+        /// <returns>The total cost of all items in the cart.</returns>
         public async Task<decimal> GetCartTotalAsync(string cartId)
         {
             return await _context.CartItems
@@ -91,6 +102,10 @@ namespace HolidayDessertStore.Services
                 .SumAsync(c => c.Price * c.Quantity);
         }
 
+        /// <summary>
+        /// Removes the specified cart item from the cart, and updates the quantity of the associated dessert.
+        /// </summary>
+        /// <param name="cartItemId">The ID of the cart item to be removed.</param>
         public async Task RemoveFromCartAsync(int cartItemId)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -117,6 +132,10 @@ namespace HolidayDessertStore.Services
             }
         }
 
+        /// <summary>
+        /// Clears a cart by removing all items and restoring their quantities back to the associated desserts.
+        /// </summary>
+        /// <param name="cartId">The ID of the cart to be cleared.</param>
         public async Task ClearCartAsync(string cartId)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -144,6 +163,13 @@ namespace HolidayDessertStore.Services
             }
         }
 
+        /// <summary>
+        /// Updates the quantity of a cart item, and updates the quantity of the associated dessert accordingly.
+        /// </summary>
+        /// <param name="cartItemId">The ID of the cart item to be updated.</param>
+        /// <param name="quantity">The new quantity of the cart item.</param>
+        /// <exception cref="ArgumentException">The cart item with the specified ID does not exist.</exception>
+        /// <exception cref="InvalidOperationException">The requested quantity exceeds the available stock.</exception>
         public async Task UpdateCartItemQuantityAsync(int cartItemId, int quantity)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -186,6 +212,12 @@ namespace HolidayDessertStore.Services
             }
         }
 
+        /// <summary>
+        /// Gets the available quantity of a dessert.
+        /// </summary>
+        /// <param name="dessertId">The ID of the dessert.</param>
+        /// <returns>The available quantity.</returns>
+        /// <exception cref="ArgumentException">Dessert not found.</exception>
         public async Task<int> GetAvailableQuantityAsync(int dessertId)
         {
             var dessert = await _context.Desserts.FindAsync(dessertId);

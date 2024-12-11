@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "HolidayDessertStore.Controllers.DessertManagementController",
+    "Method": "CreateDessert",
+    "RelativePath": "api/DessertManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dessert",
+        "Type": "HolidayDessertStore.Models.Dessert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HolidayDessertStore.Controllers.DessertManagementController",
+    "Method": "GetDessert",
+    "RelativePath": "api/DessertManagement/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HolidayDessertStore.Models.Dessert",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HolidayDessertStore.Controllers.DessertManagementController",
+    "Method": "UpdateDessert",
+    "RelativePath": "api/DessertManagement/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dessert",
+        "Type": "HolidayDessertStore.Models.Dessert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HolidayDessertStore.Controllers.DessertManagementController",
+    "Method": "DeleteDessert",
+    "RelativePath": "api/DessertManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|c:\\users\\brett\\desktop\\code-you-auction-app-final-project\\holidaydessertstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|solutionrelative:holidaydessertstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\Program.cs",
+              "RelativeDocumentMoniker": "HolidayDessertStore\\Program.cs",
+              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\Program.cs",
+              "RelativeToolTip": "HolidayDessertStore\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:31.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
