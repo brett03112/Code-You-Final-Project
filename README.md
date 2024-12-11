@@ -40,11 +40,11 @@ Ensure that the external api keys are configured correctly.
 
 '''
     Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs
-    Line 97, in the "public WeatherService
-    (IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
+    Line 97, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
     method at _apiKey = "";.
     The weatherapi.com api key must be entered.
-
+'''
+'''
     Code-You-Final-Project/HolidayDessertStore/appsettings.json
     Here you must enter the (2) API keys from Stripe.com
     SecretKey: ""
@@ -54,16 +54,19 @@ Ensure that the external api keys are configured correctly.
 User Logins
 
 '''
-    The primary user is <admin@example.com> with the password: "admin00"
+    primary user: <admin@example.com>
+    password: "admin00"
 '''
 
 SwaggerUI for CRUD
+
 '''
     You must be logged in under the "admin" user role above.
     Go to: <https://localhost:7056/swagger>
 '''
 
 Testing
+
 '''
     The tests are ran using an in-memory database provided by:
     "Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0"
