@@ -166,6 +166,22 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.0": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -1623,6 +1639,20 @@
         "docs/PACKAGE.md",
         "microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/8.0.0": {
+      "sha512": "/pT9FOO0BxGSRscK/ekEb6TdiP3+nnyhPLElE1yuVG/QaZLaBAuM3RoywBHdIxWoFALaOS7ktXlKzuMX3khJ4A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.8.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
@@ -3147,6 +3177,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "HolidayDessertStore >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 8.0.0",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
@@ -3208,6 +3239,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.11.1, )"

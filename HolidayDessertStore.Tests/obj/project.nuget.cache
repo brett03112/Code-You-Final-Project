@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gjUbZoB1CFc=",
+  "dgSpecHash": "u2monTUW2V8=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0\\microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.0\\microsoft.entityframeworkcore.inmemory.8.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0\\microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\9.0.0\\microsoft.entityframeworkcore.sqlite.9.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.0\\microsoft.entityframeworkcore.sqlite.core.9.0.0.nupkg.sha512",
