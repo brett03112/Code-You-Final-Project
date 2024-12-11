@@ -38,15 +38,15 @@ Start the app
 
 Ensure that the external api keys are configured correctly.
 
-'''bash
-    Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs
+"""
+Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs
 Line 97, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
 method at _apiKey = "";.
 The weatherapi.com api key must be entered.
-'''
+"""
 
-'''bash
-    Code-You-Final-Project/HolidayDessertStore/appsettings.json
+'''
+Code-You-Final-Project/HolidayDessertStore/appsettings.json
 Here you must enter the (2) API keys from Stripe.com
 
 SecretKey: ""
@@ -57,22 +57,22 @@ PublishableKey: ""
 
 User Logins
 
-'''bash
-    primary user: <admin@example.com>
+'''
+primary user: <admin@example.com>
 password: "admin00"
 '''
 
 SwaggerUI for CRUD
 
-'''bash
-    You must be logged in under the "admin" user role above.
+'''
+You must be logged in under the "admin" user role above.
 Go to: <https://localhost:7056/swagger>
 '''
 
 Testing
 
-'''bash
-    The tests are ran using an in-memory database provided by:
+'''
+The tests are ran using an in-memory database provided by:
 "Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0"
 
 Go to Code-You-Final-Project/HolidayDessertStore.Tests
@@ -94,4 +94,4 @@ Ensures that the service can correctly update the quantity of an item in a cart
 and update the available stock accordingly.
 '''
 
-## All API Keys are found in the Final Project Submission form.
+## All API Keys are found in the Final Project Submission form
