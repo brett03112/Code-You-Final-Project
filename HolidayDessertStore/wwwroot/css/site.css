@@ -25,6 +25,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #1e4d6b;  /* Darker blue background */
 }
 
 .form-floating > .form-control-plaintext::placeholder,
@@ -38,10 +39,6 @@ body {
   text-align: start;
 }
 
-body {
-  background-color: lightblue;
-}
-
 .snowflakes {
   position: fixed;
   top: 0;
@@ -53,21 +50,45 @@ body {
 }
 
 .snowflake {
-  color: white;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  font-size: 1.5em;
   position: absolute;
+  top: -20px;
   animation: fall linear infinite;
 }
 
+/* Different sizes for variety */
+.snowflake:nth-child(3n) { font-size: 1.8em; }
+.snowflake:nth-child(3n+1) { font-size: 1.2em; }
+
+/* Positions and animations for all 15 snowflakes */
+.snowflake:nth-child(1) { left: 5%; animation-duration: 10s; animation-delay: 1s; }
+.snowflake:nth-child(2) { left: 12%; animation-duration: 12s; animation-delay: 2s; }
+.snowflake:nth-child(3) { left: 20%; animation-duration: 8s; animation-delay: 3s; }
+.snowflake:nth-child(4) { left: 28%; animation-duration: 15s; animation-delay: 4s; }
+.snowflake:nth-child(5) { left: 35%; animation-duration: 11s; animation-delay: 5s; }
+.snowflake:nth-child(6) { left: 42%; animation-duration: 9s; animation-delay: 6s; }
+.snowflake:nth-child(7) { left: 50%; animation-duration: 13s; animation-delay: 7s; }
+.snowflake:nth-child(8) { left: 58%; animation-duration: 14s; animation-delay: 8s; }
+.snowflake:nth-child(9) { left: 65%; animation-duration: 10s; animation-delay: 9s; }
+.snowflake:nth-child(10) { left: 72%; animation-duration: 12s; animation-delay: 1s; }
+.snowflake:nth-child(11) { left: 80%; animation-duration: 9s; animation-delay: 2s; }
+.snowflake:nth-child(12) { left: 88%; animation-duration: 11s; animation-delay: 3s; }
+.snowflake:nth-child(13) { left: 95%; animation-duration: 13s; animation-delay: 4s; }
+.snowflake:nth-child(14) { left: 25%; animation-duration: 14s; animation-delay: 5s; }
+.snowflake:nth-child(15) { left: 75%; animation-duration: 10s; animation-delay: 6s; }
+
 @keyframes fall {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-100%) rotate(0deg);
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   100% {
-    transform: translateY(100vh);
-    opacity: 0;
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0.3;
   }
 }

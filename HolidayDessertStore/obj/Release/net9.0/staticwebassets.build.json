@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fMqtFVxmsF/usGcteL1EmWUtpjGqdg3D3i7pccJY8pI=",
+  "Hash": "qzQr+wXgunBtr+lo5dRLSoSJndVn2w8SF9pyykoDOs4=",
   "Source": "HolidayDessertStore",
   "BasePath": "_content/HolidayDessertStore",
   "Mode": "Default",
@@ -2306,12 +2306,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-kp2nf00814.gz",
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
       "SourceId": "HolidayDessertStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/HolidayDessertStore",
-      "RelativePath": "css/site#[.{fingerprint=kp2nf00814}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=so790j280f}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2320,8 +2320,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9bccv9gui6",
-      "Integrity": "VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI=",
+      "Fingerprint": "r89h1niglp",
+      "Integrity": "9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kp2nf00814",
-      "Integrity": "iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ=",
+      "Fingerprint": "so790j280f",
+      "Integrity": "1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5622,12 +5622,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-kp2nf00814.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002040816327"
+          "Quality": "0.001219512195"
         }
       ],
       "ResponseHeaders": [
@@ -5637,15 +5637,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "489"
+          "Value": "819"
         },
         {
           "Name": "ETag",
-          "Value": "\"VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI=\""
+          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5665,13 +5665,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ=\""
+          "Value": "W/\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ="
+          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
         }
       ]
     },
@@ -5686,7 +5686,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "2762"
         },
         {
           "Name": "Content-Type",
@@ -5694,11 +5694,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ=\""
+          "Value": "\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5708,13 +5708,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ="
+          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-kp2nf00814.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5723,7 +5723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "489"
+          "Value": "819"
         },
         {
           "Name": "Content-Type",
@@ -5731,11 +5731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI=\""
+          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5753,18 +5753,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI="
+          "Value": "sha256-9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo="
         }
       ]
     },
     {
-      "Route": "css/site.kp2nf00814.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-kp2nf00814.gz",
+      "Route": "css/site.so790j280f.css",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002040816327"
+          "Quality": "0.001219512195"
         }
       ],
       "ResponseHeaders": [
@@ -5774,15 +5774,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "489"
+          "Value": "819"
         },
         {
           "Name": "ETag",
-          "Value": "\"VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI=\""
+          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5802,13 +5802,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ=\""
+          "Value": "W/\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kp2nf00814"
+          "Value": "so790j280f"
         },
         {
           "Name": "label",
@@ -5816,12 +5816,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ="
+          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
         }
       ]
     },
     {
-      "Route": "css/site.kp2nf00814.css",
+      "Route": "css/site.so790j280f.css",
       "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5831,7 +5831,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1149"
+          "Value": "2762"
         },
         {
           "Name": "Content-Type",
@@ -5839,11 +5839,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ=\""
+          "Value": "\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5853,7 +5853,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kp2nf00814"
+          "Value": "so790j280f"
         },
         {
           "Name": "label",
@@ -5861,13 +5861,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S+uQ="
+          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
         }
       ]
     },
     {
-      "Route": "css/site.kp2nf00814.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-kp2nf00814.gz",
+      "Route": "css/site.so790j280f.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5876,7 +5876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "489"
+          "Value": "819"
         },
         {
           "Name": "Content-Type",
@@ -5884,11 +5884,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI=\""
+          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:20:15 GMT"
+          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5906,7 +5906,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kp2nf00814"
+          "Value": "so790j280f"
         },
         {
           "Name": "label",
@@ -5914,7 +5914,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VYwpMOf2q6FuMdM0cxh3/wg2CkU4KhBlO35NOSnbhPI="
+          "Value": "sha256-9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo="
         }
       ]
     },

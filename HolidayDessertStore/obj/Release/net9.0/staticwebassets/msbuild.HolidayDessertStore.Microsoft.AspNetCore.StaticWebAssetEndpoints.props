@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S\u002BuQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1149"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S\u002BuQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:20:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2762"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 02:50:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/css/site.kp2nf00814.css">
+    <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/css/site.so790j280f.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kp2nf00814"},{"Name":"integrity","Value":"sha256-iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S\u002BuQ="},{"Name":"label","Value":"_content/HolidayDessertStore/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1149"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iCMc9ZshXRede8znUrgkhWb6q/gz2NPw16llJo7S\u002BuQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 17:20:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"so790j280f"},{"Name":"integrity","Value":"sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="},{"Name":"label","Value":"_content/HolidayDessertStore/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2762"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 02:50:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HolidayDessertStore/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
