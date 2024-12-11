@@ -36,7 +36,7 @@ Start the app
     dotnet run -lp https
 ```
 
-## Ensure that the external api keys are configured correctly.
+## Ensure that the external api keys are configured correctly
 
 Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs
 Line 97, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
@@ -69,6 +69,7 @@ Go to Code-You-Final-Project/HolidayDessertStore.Tests
 Run the following: dotnet test
 
 There are (4) tests
+
 1:  public async Task AddToCart_WithValidQuantity_ShouldAddItemAndUpdateStock()
 which tests adding items to the cart and updating the available items.
 

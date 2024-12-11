@@ -3,7 +3,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const buyButtons = document.querySelectorAll('.buy-button');
-    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+    const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+    const antiForgeryToken = tokenElement ? tokenElement.value : '';
     
     buyButtons.forEach(button => {
         button.addEventListener('click', async function() {

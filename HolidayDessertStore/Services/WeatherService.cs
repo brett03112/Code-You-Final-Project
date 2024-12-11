@@ -94,7 +94,7 @@ public class WeatherService
     public WeatherService(IHttpClientFactory httpClientFactory, ILogger<WeatherService> logger)
     {
         _httpClient = httpClientFactory.CreateClient();
-        _apiKey = "";
+        _apiKey = "227bd413254a491885a101922240512";
         _logger = logger;
     }
 

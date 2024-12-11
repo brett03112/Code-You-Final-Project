@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u2monTUW2V8=",
+  "dgSpecHash": "tS+1mAUYzsI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0\\microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",

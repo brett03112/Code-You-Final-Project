@@ -3191,11 +3191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
       "projectName": "HolidayDessertStore.Tests",
-      "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
+      "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore.Tests\\obj\\",
+      "outputPath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3217,8 +3217,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {
-              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Auction-App-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj"
+            "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj": {
+              "projectPath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj"
             }
           }
         }
