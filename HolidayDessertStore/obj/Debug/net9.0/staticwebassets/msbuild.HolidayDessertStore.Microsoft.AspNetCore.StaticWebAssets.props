@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>so790j280f</Fingerprint>
-      <Integrity>1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=</Integrity>
+      <Fingerprint>yj0xe7icxk</Fingerprint>
+      <Integrity>DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -36,23 +36,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HolidayDessertStore.chjha05rme.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HolidayDessertStore.p49bjnxbly.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>HolidayDessertStore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HolidayDessertStore</BasePath>
-      <RelativePath>HolidayDessertStore.chjha05rme.bundle.scp.css</RelativePath>
+      <RelativePath>HolidayDessertStore.p49bjnxbly.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>chjha05rme</Fingerprint>
-      <Integrity>ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=</Integrity>
+      <Fingerprint>p49bjnxbly</Fingerprint>
+      <Integrity>+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HolidayDessertStore.chjha05rme.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HolidayDessertStore.p49bjnxbly.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\desserts\apple_pie.jpg'))">
       <SourceType>Package</SourceType>

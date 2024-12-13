@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|c:\\users\\brett\\desktop\\code-you-final-project\\holidaydessertstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|solutionrelative:holidaydessertstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|c:\\users\\brett\\desktop\\code-you-final-project\\holidaydessertstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF18C2D-F7D7-4CDA-B9A6-B61B3B9872EE}|HolidayDessertStore\\HolidayDessertStore.csproj|solutionrelative:holidaydessertstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9F961C-A15F-4DB5-973D-22034FAC6FA1}|HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj|c:\\users\\brett\\desktop\\code-you-final-project\\holidaydessertstore.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9F961C-A15F-4DB5-973D-22034FAC6FA1}|HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj|solutionrelative:holidaydessertstore.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,23 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\appsettings.json",
-              "RelativeDocumentMoniker": "HolidayDessertStore\\appsettings.json",
-              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\appsettings.json",
-              "RelativeToolTip": "HolidayDessertStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-11T14:36:23.141Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\Program.cs",
+              "RelativeDocumentMoniker": "HolidayDessertStore\\Program.cs",
+              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\Program.cs",
+              "RelativeToolTip": "HolidayDessertStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:22:53.456Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "HolidayDessertStore.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "HolidayDessertStore.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:56:09.216Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bq+Vi1j4FZMPCK6h0SPwby5YhiZ5RO7qEKxVB5hEpT4=",
+  "Hash": "IDzHusNXlXNuva/M4I+0G+YSGxHmdOARMcxYCXM/1tE=",
   "Source": "HolidayDessertStore",
   "BasePath": "_content/HolidayDessertStore",
   "Mode": "Default",
@@ -1865,12 +1865,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-chjha05rme.gz",
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-p49bjnxbly.gz",
       "SourceId": "HolidayDessertStore",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HolidayDessertStore",
-      "RelativePath": "HolidayDessertStore#[.{fingerprint=chjha05rme}]?.styles.css.gz",
+      "RelativePath": "HolidayDessertStore#[.{fingerprint=p49bjnxbly}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1879,8 +1879,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\bundle\\HolidayDessertStore.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5zhyjv18la",
-      "Integrity": "gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=",
+      "Fingerprint": "tlxtmuaf04",
+      "Integrity": "n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\bundle\\HolidayDessertStore.styles.css"
@@ -2306,12 +2306,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-yj0xe7icxk.gz",
       "SourceId": "HolidayDessertStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HolidayDessertStore",
-      "RelativePath": "css/site#[.{fingerprint=so790j280f}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=yj0xe7icxk}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2320,8 +2320,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "r89h1niglp",
-      "Integrity": "9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=",
+      "Fingerprint": "pej6abgqnh",
+      "Integrity": "wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css"
@@ -3314,12 +3314,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-chjha05rme.gz",
+      "Identity": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-p49bjnxbly.gz",
       "SourceId": "HolidayDessertStore",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HolidayDessertStore",
-      "RelativePath": "HolidayDessertStore#[.{fingerprint=chjha05rme}]!.bundle.scp.css.gz",
+      "RelativePath": "HolidayDessertStore#[.{fingerprint=p49bjnxbly}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -3328,8 +3328,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\HolidayDessertStore.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5zhyjv18la",
-      "Integrity": "gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=",
+      "Fingerprint": "tlxtmuaf04",
+      "Integrity": "n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\HolidayDessertStore.bundle.scp.css"
@@ -4000,8 +4000,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "chjha05rme",
-      "Integrity": "ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=",
+      "Fingerprint": "p49bjnxbly",
+      "Integrity": "+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\bundle\\HolidayDessertStore.styles.css"
@@ -4021,8 +4021,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "chjha05rme",
-      "Integrity": "ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=",
+      "Fingerprint": "p49bjnxbly",
+      "Integrity": "+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\HolidayDessertStore.bundle.scp.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "so790j280f",
-      "Integrity": "1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=",
+      "Fingerprint": "yj0xe7icxk",
+      "Integrity": "DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5622,12 +5622,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-yj0xe7icxk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001219512195"
+          "Quality": "0.001203369434"
         }
       ],
       "ResponseHeaders": [
@@ -5637,15 +5637,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "830"
         },
         {
           "Name": "ETag",
-          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
+          "Value": "\"wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5665,13 +5665,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
+          "Value": "W/\"DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
+          "Value": "sha256-DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU="
         }
       ]
     },
@@ -5686,7 +5686,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2762"
+          "Value": "2798"
         },
         {
           "Name": "Content-Type",
@@ -5694,11 +5694,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
+          "Value": "\"DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5708,13 +5708,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
+          "Value": "sha256-DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-yj0xe7icxk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5723,7 +5723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "830"
         },
         {
           "Name": "Content-Type",
@@ -5731,11 +5731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
+          "Value": "\"wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5753,18 +5753,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo="
+          "Value": "sha256-wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc="
         }
       ]
     },
     {
-      "Route": "css/site.so790j280f.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
+      "Route": "css/site.yj0xe7icxk.css",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-yj0xe7icxk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001219512195"
+          "Quality": "0.001203369434"
         }
       ],
       "ResponseHeaders": [
@@ -5774,15 +5774,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "830"
         },
         {
           "Name": "ETag",
-          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
+          "Value": "\"wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5802,13 +5802,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
+          "Value": "W/\"DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "so790j280f"
+          "Value": "yj0xe7icxk"
         },
         {
           "Name": "label",
@@ -5816,12 +5816,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
+          "Value": "sha256-DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU="
         }
       ]
     },
     {
-      "Route": "css/site.so790j280f.css",
+      "Route": "css/site.yj0xe7icxk.css",
       "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5831,7 +5831,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2762"
+          "Value": "2798"
         },
         {
           "Name": "Content-Type",
@@ -5839,11 +5839,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A=\""
+          "Value": "\"DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5853,7 +5853,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "so790j280f"
+          "Value": "yj0xe7icxk"
         },
         {
           "Name": "label",
@@ -5861,13 +5861,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1CRT4scMceuimSfL5kfOrl1ecQBTAKQgIK8IDgKeT5A="
+          "Value": "sha256-DusTC/jNJfYqFJ4tlq/niWqK5qdTUseUwVP3GwnQNWU="
         }
       ]
     },
     {
-      "Route": "css/site.so790j280f.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-so790j280f.gz",
+      "Route": "css/site.yj0xe7icxk.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\hajopbcdd2-yj0xe7icxk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5876,7 +5876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "830"
         },
         {
           "Name": "Content-Type",
@@ -5884,11 +5884,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo=\""
+          "Value": "\"wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 02:50:54 GMT"
+          "Value": "Fri, 13 Dec 2024 09:26:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5906,7 +5906,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "so790j280f"
+          "Value": "yj0xe7icxk"
         },
         {
           "Name": "label",
@@ -5914,7 +5914,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9Tnp8GGj1Qagfb+1BOsvl+aWzAl+fm0ezqOx659Jrjo="
+          "Value": "sha256-wX1oxoy419ol3nbZsRCLeteMaDyxXKSlIOJOu7+WYyc="
         }
       ]
     },
@@ -6255,12 +6255,12 @@
     },
     {
       "Route": "HolidayDessertStore.bundle.scp.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-chjha05rme.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-p49bjnxbly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -6270,15 +6270,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6298,13 +6298,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "W/\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
@@ -6319,7 +6319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1197"
         },
         {
           "Name": "Content-Type",
@@ -6327,11 +6327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6341,13 +6341,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
       "Route": "HolidayDessertStore.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-chjha05rme.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-p49bjnxbly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6356,7 +6356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -6364,11 +6364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6386,18 +6386,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk="
+          "Value": "sha256-n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.bundle.scp.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-chjha05rme.gz",
+      "Route": "HolidayDessertStore.p49bjnxbly.bundle.scp.css",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-p49bjnxbly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -6407,15 +6407,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6435,13 +6435,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "W/\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6449,12 +6449,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.bundle.scp.css",
+      "Route": "HolidayDessertStore.p49bjnxbly.bundle.scp.css",
       "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\HolidayDessertStore.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6464,7 +6464,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1197"
         },
         {
           "Name": "Content-Type",
@@ -6472,11 +6472,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6486,7 +6486,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6494,13 +6494,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-chjha05rme.gz",
+      "Route": "HolidayDessertStore.p49bjnxbly.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\srooxozvw3-p49bjnxbly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6509,7 +6509,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -6517,11 +6517,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6539,7 +6539,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6547,18 +6547,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk="
+          "Value": "sha256-n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.styles.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-chjha05rme.gz",
+      "Route": "HolidayDessertStore.p49bjnxbly.styles.css",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-p49bjnxbly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -6568,15 +6568,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6596,13 +6596,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "W/\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6610,12 +6610,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.styles.css",
+      "Route": "HolidayDessertStore.p49bjnxbly.styles.css",
       "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\scopedcss\\bundle\\HolidayDessertStore.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6625,7 +6625,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1197"
         },
         {
           "Name": "Content-Type",
@@ -6633,11 +6633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6647,7 +6647,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6655,13 +6655,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
-      "Route": "HolidayDessertStore.chjha05rme.styles.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-chjha05rme.gz",
+      "Route": "HolidayDessertStore.p49bjnxbly.styles.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-p49bjnxbly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6670,7 +6670,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -6678,11 +6678,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6700,7 +6700,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "chjha05rme"
+          "Value": "p49bjnxbly"
         },
         {
           "Name": "label",
@@ -6708,18 +6708,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk="
+          "Value": "sha256-n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ="
         }
       ]
     },
     {
       "Route": "HolidayDessertStore.styles.css",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-chjha05rme.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-p49bjnxbly.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -6729,15 +6729,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6757,13 +6757,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "W/\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
@@ -6778,7 +6778,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1197"
         },
         {
           "Name": "Content-Type",
@@ -6786,11 +6786,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8=\""
+          "Value": "\"+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6800,13 +6800,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ICnZr8RpsHjuKW/aSILs2dCP2rRGMxJs4qZ+OSm5rZ8="
+          "Value": "sha256-+YH+RmTkmxhSXqELZzH3BmPlAbp/0+sPEuobwRWPne8="
         }
       ]
     },
     {
       "Route": "HolidayDessertStore.styles.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-chjha05rme.gz",
+      "AssetFile": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Debug\\net9.0\\compressed\\a4cpkz1jge-p49bjnxbly.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6815,7 +6815,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -6823,11 +6823,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk=\""
+          "Value": "\"n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 12:23:41 GMT"
+          "Value": "Fri, 13 Dec 2024 09:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6845,7 +6845,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gW4X1CCjtAhCfXJGs+9iO59MlUueuT/hXFwN6miBMSk="
+          "Value": "sha256-n0IbYXL0nDjNGCycGcUKnXeKUnVDhs7bCnd5a96IfUQ="
         }
       ]
     },

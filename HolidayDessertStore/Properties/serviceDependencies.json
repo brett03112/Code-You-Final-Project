@@ -8,8 +8,7 @@
     },
     "sqlite1": {
       "type": "sqlite",
-      "connectionId": "ConnectionStrings:DatabaseConnection",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:DatabaseConnection"
     }
   }
 }

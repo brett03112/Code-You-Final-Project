@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tS+1mAUYzsI=",
+  "dgSpecHash": "XemDJyYjIkQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
   "expectedPackageFiles": [
@@ -61,7 +61,8 @@
     "C:\\Users\\brett\\.nuget\\packages\\xunit.core\\2.9.2\\xunit.core.2.9.2.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
+    "C:\\Users\\brett\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200-preview.0.24575.35\\microsoft.net.sdk.compilers.toolset.9.0.200-preview.0.24575.35.nupkg.sha512"
   ],
   "logs": []
 }
