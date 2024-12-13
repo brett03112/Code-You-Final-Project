@@ -30,8 +30,8 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "HolidayDessertStore\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\Pages\\Index.cshtml*",
-              "RelativeToolTip": "HolidayDessertStore\\Pages\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\Pages\\Index.cshtml",
+              "RelativeToolTip": "HolidayDessertStore\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-11T23:56:52.32Z",
@@ -47,8 +47,7 @@
               "RelativeToolTip": "HolidayDessertStore\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T23:22:53.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T23:22:53.456Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "HolidayDessertStore.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:56:09.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T22:56:09.216Z"
             }
           ]
         }
