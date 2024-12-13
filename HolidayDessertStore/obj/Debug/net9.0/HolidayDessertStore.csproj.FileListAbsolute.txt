@@ -853,4 +853,3 @@ C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Debug\net9
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
