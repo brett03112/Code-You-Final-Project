@@ -1,17 +1,8 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace HolidayDessertStore.Models
 {
-    public class CartItem
-    {
-        public int Id { get; set; }
-        public string CartId { get; set; }
-        public int DessertId { get; set; }
-        public int Quantity { get; set; }
-        public decimal Price { get; set; }
-        public virtual Dessert Dessert { get; set; }
-    }
-
     public class ShoppingCart
     {
         public string CartId { get; set; }

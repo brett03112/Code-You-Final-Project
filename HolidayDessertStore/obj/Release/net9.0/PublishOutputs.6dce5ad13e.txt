@@ -4,9 +4,11 @@ C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\ne
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\HolidayDessertStore.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\HolidayDessertStore.runtimeconfig.json
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\HolidayDessertStore.pdb
+C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Azure.Core.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.Data.Sqlite.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -22,7 +24,9 @@ C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\ne
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\System.ClientModel.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\System.Memory.Data.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
 C:\Users\brett\Desktop\Code-You-Final-Project\HolidayDessertStore\obj\Release\net9.0\PubTmp\Out\runtimes\linux-arm\native\libe_sqlite3.so

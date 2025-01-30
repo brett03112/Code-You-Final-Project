@@ -9,7 +9,7 @@ public class IndexModel : PageModel
     private readonly ILogger<IndexModel> _logger;
     private readonly WeatherService _weatherService;
 
-    public WeatherForecast WeatherData { get; set; }
+    public WeatherForecast? WeatherData { get; set; }
 
         /// <summary>
         /// Constructor for IndexModel, which is the Razor Page Model for the Index page.
@@ -31,6 +31,10 @@ public class IndexModel : PageModel
         try
         {
             WeatherData = await _weatherService.GetWeatherForecastAsync();
+            if (WeatherData == null)
+            {
+                _logger.LogWarning("Weather data is null");
+            }
         }
         catch (Exception ex)
         {

@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "apis1": {
-      "type": "apis"
-    },
     "secrets1": {
       "type": "secrets"
+    },
+    "apis1": {
+      "type": "apis"
     },
     "sqlite1": {
       "type": "sqlite",

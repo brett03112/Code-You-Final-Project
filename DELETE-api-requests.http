@@ -1,0 +1,13 @@
+### Delete a dessert by ID (requires admin authentication)
+DELETE http://localhost:5014/api/Desserts/12
+Authorization: Bearer {{authToken}}
+
+### Delete a non-existent dessert (should return 404)
+DELETE http://localhost:5014/api/Desserts/999
+Authorization: Bearer {{authToken}}
+
+### Note: DELETE requests require admin authentication
+### Make sure to get a valid JWT token from the login endpoint first
+
+### Variables
+@authToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJqdGkiOiIyNzFhNWE4MS0wYTEzLTQ3NDgtODFiNy05MjcxOTAwMzJkNzciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzM4MjA0MTM0LCJpc3MiOiJIb2xpZGF5RGVzc2VydFN0b3JlLkFQSSIsImF1ZCI6IkhvbGlkYXlEZXNzZXJ0U3RvcmVDbGllbnRzIn0.8jtTUpqQN9P9mkphSOBn1R9OTzd4vSztivInm88NIZQ

@@ -11,17 +11,17 @@ namespace HolidayDessertStore.Pages.DessertShop
 {
     public class DessertShopModel : PageModel
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IDessertApiService _dessertApiService;
         private readonly IShoppingCartService _cartService;
 
         /// <summary>
         /// Constructor for DessertShopModel, which provides a Razor Page for users to browse the holiday desserts.
         /// </summary>
-        /// <param name="context">The database context.</param>
+        /// <param name="dessertApiService">The IDessertApiService to use for retrieving desserts.</param>
         /// <param name="cartService">The IShoppingCartService to use for adding items to the cart.</param>
-        public DessertShopModel(ApplicationDbContext context, IShoppingCartService cartService)
+        public DessertShopModel(IDessertApiService dessertApiService, IShoppingCartService cartService)
         {
-            _context = context;
+            _dessertApiService = dessertApiService;
             _cartService = cartService;
         }
 
@@ -31,11 +31,12 @@ namespace HolidayDessertStore.Pages.DessertShop
 
         /// <summary>
         /// OnGetAsync is a Razor Page handler that is called when the page is requested.
-        /// It retrieves a list of all desserts from the database, and assigns it to the Desserts property.
+        /// It retrieves a list of all desserts from the API, and assigns it to the Desserts property.
         /// </summary>
         public async Task OnGetAsync()
         {
-            Desserts = await _context.Desserts.ToListAsync();
+            var desserts = await _dessertApiService.GetAllDessertsAsync();
+            Desserts = desserts.ToList();
         }
 
         /// <summary>
@@ -49,21 +50,21 @@ namespace HolidayDessertStore.Pages.DessertShop
         {
             if (quantity <= 0)
             {
-                StatusMessage = "Please select a valid quantity.";
+                StatusMessage = "Quantity must be greater than 0";
                 return RedirectToPage();
-            }
-
-            var cartId = HttpContext.Session.GetString("CartId");
-            if (string.IsNullOrEmpty(cartId))
-            {
-                cartId = Guid.NewGuid().ToString();
-                HttpContext.Session.SetString("CartId", cartId);
             }
 
             try
             {
+                var cartId = HttpContext.Session.GetString("CartId");
+                if (string.IsNullOrEmpty(cartId))
+                {
+                    cartId = Guid.NewGuid().ToString();
+                    HttpContext.Session.SetString("CartId", cartId);
+                }
+
                 await _cartService.AddToCartAsync(dessertId, cartId, quantity);
-                StatusMessage = "Item added to cart successfully!";
+                StatusMessage = "Item added to cart successfully";
             }
             catch (InvalidOperationException ex)
             {
@@ -71,9 +72,9 @@ namespace HolidayDessertStore.Pages.DessertShop
             }
             catch (Exception)
             {
-                StatusMessage = "Error adding item to cart.";
+                StatusMessage = "An error occurred while adding the item to cart";
             }
-            
+
             return RedirectToPage();
         }
     }

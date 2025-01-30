@@ -3,38 +3,48 @@ using Microsoft.EntityFrameworkCore;
 using HolidayDessertStore.Data;
 using HolidayDessertStore.Services;
 using Stripe;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure Stripe
-StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
+var stripeSecretKey = builder.Configuration["Stripe:SecretKey"] 
+    ?? throw new InvalidOperationException("Stripe:SecretKey not found in configuration");
+StripeConfiguration.ApiKey = stripeSecretKey;
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+// Add Identity
 builder.Services.AddDefaultIdentity<IdentityUser>(options => {
-    options.SignIn.RequireConfirmedAccount = false; // Disable email confirmation
-    // Password settings
+    options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
     options.Password.RequireUppercase = true;
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequiredLength = 6;
 })
-    .AddRoles<IdentityRole>() // Add role support
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddRazorPages();
-builder.Services.AddControllers(); // Add back controllers support
 
 // Register services
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<IDessertApiService, DessertApiService>();
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<WeatherService>();
+
+// Configure HttpClient for API
+builder.Services.AddHttpClient("HolidayDessertAPI", client =>
+{
+    var apiBaseUrl = builder.Configuration["ApiSettings:BaseUrl"] 
+        ?? throw new InvalidOperationException("API base URL not configured");
+    client.BaseAddress = new Uri(apiBaseUrl);
+});
 
 // Add session support
 builder.Services.AddDistributedMemoryCache();
@@ -45,11 +55,10 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Add Swagger services
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+// Add authorization policies
+builder.Services.AddAuthorization(options =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Holiday Dessert Store API", Version = "v1" });
+    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
 });
 
 var app = builder.Build();
@@ -58,13 +67,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
-    app.UseSwagger();
-    app.UseSwaggerUI();
 }
 else
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -79,6 +85,5 @@ app.UseAuthorization();
 app.UseSession();
 
 app.MapRazorPages();
-app.MapControllers();
 
 app.Run();

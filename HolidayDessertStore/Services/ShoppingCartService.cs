@@ -7,13 +7,12 @@ namespace HolidayDessertStore.Services
     public class ShoppingCartService : IShoppingCartService
     {
         private readonly ApplicationDbContext _context;
+        private readonly IDessertApiService _dessertApiService;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ShoppingCartService"/> class with the specified <see cref="ApplicationDbContext"/>.</summary>
-        /// <param name="context">The database context.</param>
-        public ShoppingCartService(ApplicationDbContext context)
+        public ShoppingCartService(ApplicationDbContext context, IDessertApiService dessertApiService)
         {
             _context = context;
+            _dessertApiService = dessertApiService;
         }
 
         /// <summary>
@@ -30,7 +29,7 @@ namespace HolidayDessertStore.Services
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
-                var dessert = await _context.Desserts.FindAsync(dessertId);
+                var dessert = await _dessertApiService.GetDessertByIdAsync(dessertId);
                 if (dessert == null) throw new ArgumentException("Dessert not found");
                 
                 // Check if requested quantity is available
@@ -47,9 +46,12 @@ namespace HolidayDessertStore.Services
                         throw new InvalidOperationException($"Cannot add {quantity} more items. Only {dessert.Quantity - existingItem.Quantity} items available");
 
                     existingItem.Quantity += quantity;
-                    // Update available quantity
-                    dessert.Quantity -= quantity;
                     await _context.SaveChangesAsync();
+
+                    // Update dessert quantity through API
+                    dessert.Quantity -= quantity;
+                    await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
+
                     await transaction.CommitAsync();
                     return existingItem;
                 }
@@ -59,11 +61,13 @@ namespace HolidayDessertStore.Services
                     CartId = cartId,
                     DessertId = dessertId,
                     Quantity = quantity,
-                    Price = dessert.Price
+                    Price = dessert.Price,
+                    Dessert = dessert
                 };
 
-                // Update available quantity
+                // Update dessert quantity through API
                 dessert.Quantity -= quantity;
+                await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
 
                 _context.CartItems.Add(cartItem);
                 await _context.SaveChangesAsync();
@@ -84,10 +88,17 @@ namespace HolidayDessertStore.Services
         /// <returns>A list of cart items.</returns>
         public async Task<List<CartItem>> GetCartItemsAsync(string cartId)
         {
-            return await _context.CartItems
-                .Include(c => c.Dessert)
+            var cartItems = await _context.CartItems
                 .Where(c => c.CartId == cartId)
                 .ToListAsync();
+
+            // Load dessert details from API for each cart item
+            foreach (var item in cartItems)
+            {
+                item.Dessert = await _dessertApiService.GetDessertByIdAsync(item.DessertId);
+            }
+
+            return cartItems;
         }
 
         /// <summary>
@@ -112,14 +123,18 @@ namespace HolidayDessertStore.Services
             try
             {
                 var cartItem = await _context.CartItems
-                    .Include(c => c.Dessert)
                     .FirstOrDefaultAsync(c => c.Id == cartItemId);
 
                 if (cartItem != null)
                 {
-                    // Restore the quantity back to the dessert
-                    cartItem.Dessert.Quantity += cartItem.Quantity;
-                    
+                    // Get dessert from API and update quantity
+                    var dessert = await _dessertApiService.GetDessertByIdAsync(cartItem.DessertId);
+                    if (dessert != null)
+                    {
+                        dessert.Quantity += cartItem.Quantity;
+                        await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
+                    }
+
                     _context.CartItems.Remove(cartItem);
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
@@ -142,14 +157,18 @@ namespace HolidayDessertStore.Services
             try
             {
                 var cartItems = await _context.CartItems
-                    .Include(c => c.Dessert)
                     .Where(c => c.CartId == cartId)
                     .ToListAsync();
 
                 foreach (var item in cartItems)
                 {
-                    // Restore quantities back to desserts
-                    item.Dessert.Quantity += item.Quantity;
+                    // Get dessert from API and update quantity
+                    var dessert = await _dessertApiService.GetDessertByIdAsync(item.DessertId);
+                    if (dessert != null)
+                    {
+                        dessert.Quantity += item.Quantity;
+                        await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
+                    }
                 }
 
                 _context.CartItems.RemoveRange(cartItems);
@@ -176,14 +195,18 @@ namespace HolidayDessertStore.Services
             try
             {
                 var cartItem = await _context.CartItems
-                    .Include(c => c.Dessert)
                     .FirstOrDefaultAsync(c => c.Id == cartItemId);
 
                 if (cartItem == null)
                     throw new ArgumentException("Cart item not found");
 
+                // Get dessert from API
+                var dessert = await _dessertApiService.GetDessertByIdAsync(cartItem.DessertId);
+                if (dessert == null)
+                    throw new ArgumentException("Dessert not found");
+
                 // Calculate available quantity (current dessert quantity + current cart item quantity)
-                var totalAvailable = cartItem.Dessert.Quantity + cartItem.Quantity;
+                var totalAvailable = dessert.Quantity + cartItem.Quantity;
 
                 if (quantity > totalAvailable)
                     throw new InvalidOperationException($"Only {totalAvailable} items available");
@@ -191,14 +214,16 @@ namespace HolidayDessertStore.Services
                 if (quantity <= 0)
                 {
                     // If quantity is 0 or negative, remove item and restore quantity
-                    cartItem.Dessert.Quantity += cartItem.Quantity;
+                    dessert.Quantity += cartItem.Quantity;
+                    await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
                     _context.CartItems.Remove(cartItem);
                 }
                 else
                 {
                     // Update dessert quantity based on the difference
                     var quantityDifference = cartItem.Quantity - quantity;
-                    cartItem.Dessert.Quantity += quantityDifference;
+                    dessert.Quantity += quantityDifference;
+                    await _dessertApiService.UpdateDessertAsync(dessert.Id, dessert);
                     cartItem.Quantity = quantity;
                 }
 
@@ -220,7 +245,7 @@ namespace HolidayDessertStore.Services
         /// <exception cref="ArgumentException">Dessert not found.</exception>
         public async Task<int> GetAvailableQuantityAsync(int dessertId)
         {
-            var dessert = await _context.Desserts.FindAsync(dessertId);
+            var dessert = await _dessertApiService.GetDessertByIdAsync(dessertId);
             if (dessert == null) throw new ArgumentException("Dessert not found");
             return dessert.Quantity;
         }

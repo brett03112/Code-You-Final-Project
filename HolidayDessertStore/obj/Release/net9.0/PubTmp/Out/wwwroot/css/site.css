@@ -28,6 +28,10 @@ body {
   background-color: #1e4d6b;  /* Darker blue background */
 }
 
+.display-4 {
+  color: white;
+}
+
 .form-floating > .form-control-plaintext::placeholder,
 .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);

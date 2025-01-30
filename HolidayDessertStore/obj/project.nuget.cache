@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y+Nx1oE8Uhs=",
+  "dgSpecHash": "aBKeQdd8jNY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\HolidayDessertStore.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project-Updated\\HolidayDessertStore\\HolidayDessertStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

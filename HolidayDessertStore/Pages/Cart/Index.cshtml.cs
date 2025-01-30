@@ -12,9 +12,9 @@ namespace HolidayDessertStore.Pages.Cart
         private readonly IShoppingCartService _cartService;
 
         /// <summary>
-        /// Constructor for IndexModel, which provides a Razor Page for users to view and edit their shopping cart.
+        /// Constructor for IndexModel, which is used to initialize an instance of Cart.IndexModel.
         /// </summary>
-        /// <param name="cartService">The IShoppingCartService to use for getting and editing the cart.</param>
+        /// <param name="cartService">The <see cref="IShoppingCartService"/> instance used to access the contents of the user's cart.</param>
         public IndexModel(IShoppingCartService cartService)
         {
             _cartService = cartService;
@@ -26,10 +26,12 @@ namespace HolidayDessertStore.Pages.Cart
         public string? StatusMessage { get; set; }
 
         /// <summary>
-        /// OnGetAsync is a Razor Page handler that is called when the page is requested.
-        /// It retrieves the cart ID from the session, gets the items in the cart,
-        /// and calculates the total cost of the items in the cart.
+        /// Handles the GET request for the cart page.
         /// </summary>
+        /// <remarks>
+        /// This method is called when the user navigates to the cart page.
+        /// It retrieves the list of cart items and the total cost from the database and stores them in the <see cref="CartItems"/> and <see cref="CartTotal"/> properties.
+        /// </remarks>
         public async Task OnGetAsync()
         {
             var cartId = GetOrCreateCartId();
@@ -38,22 +40,16 @@ namespace HolidayDessertStore.Pages.Cart
         }
 
         /// <summary>
-        /// OnPostRemoveAsync is a Razor Page handler that is called when the "Remove" button is clicked on a cart item.
-        /// It removes the specified cart item from the cart, and redirects to the same page.
-        /// </summary>
-        /// <param name="id">The ID of the cart item to be removed.</param>
-        public async Task<IActionResult> OnPostRemoveAsync(int id)
-        {
-            await _cartService.RemoveFromCartAsync(id);
-            return RedirectToPage();
-        }
-
-        /// <summary>
-        /// OnPostUpdateQuantityAsync is a Razor Page handler that is called when the "Update Quantity" button is clicked on a cart item.
-        /// It updates the quantity of the specified cart item, and redirects to the same page.
+        /// Handles the POST request for updating the quantity of a cart item.
         /// </summary>
         /// <param name="id">The ID of the cart item to be updated.</param>
         /// <param name="quantity">The new quantity of the cart item.</param>
+        /// <returns>A redirect to the same page with a status message.</returns>
+        /// <remarks>
+        /// This method is called when the user clicks the "Update" button next to an item in the cart.
+        /// It updates the quantity of the item in the cart and redirects back to the same page with a status message.
+        /// If the requested quantity exceeds the available stock, an error message is displayed.
+        /// </remarks>
         public async Task<IActionResult> OnPostUpdateQuantityAsync(int id, int quantity)
         {
             try
@@ -73,10 +69,14 @@ namespace HolidayDessertStore.Pages.Cart
         }
 
         /// <summary>
-        /// OnPostCheckoutAsync is a Razor Page handler that is called when the "Checkout" button is clicked.
-        /// It retrieves the cart ID from the session, gets the items in the cart,
-        /// and redirects to the Stripe checkout page if there are any items in the cart.
+        /// Handles the POST request for checkout.
         /// </summary>
+        /// <returns>A redirect to the checkout page if there are items in the cart, otherwise a redirect to the same page.</returns>
+        /// <remarks>
+        /// This method is called when the user clicks the "Checkout" button on the cart page.
+        /// If there are items in the cart, it redirects to the checkout page.
+        /// If there are no items in the cart, it redirects back to the same page.
+        /// </remarks>
         public async Task<IActionResult> OnPostCheckoutAsync()
         {
             var cartId = GetOrCreateCartId();
@@ -86,16 +86,25 @@ namespace HolidayDessertStore.Pages.Cart
                 return RedirectToPage();
             }
 
-            // Redirect to Stripe checkout
             return RedirectToPage("/Checkout/Index");
         }
 
+        
         /// <summary>
-        /// Retrieves the cart ID from the session, or creates a new one if it does not exist.
+        /// Retrieves or creates a cart ID from the user's session.
         /// </summary>
-        /// <returns>The cart ID.</returns>
+        /// <returns>The cart ID as a string.</returns>
+        /// <remarks>
+        /// This method is called when the user navigates to the cart page.
+        /// It retrieves the cart ID from the session if it exists, otherwise it generates a new cart ID and stores it in the session.
+        /// </remarks>
         private string GetOrCreateCartId()
         {
+            if (HttpContext.Session == null)
+            {
+                throw new InvalidOperationException("Session is not available");
+            }
+
             var cartId = HttpContext.Session.GetString("CartId");
             if (string.IsNullOrEmpty(cartId))
             {

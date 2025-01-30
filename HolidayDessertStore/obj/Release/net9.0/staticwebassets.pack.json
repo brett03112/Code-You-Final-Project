@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\HolidayDessertStore.bundle.scp.css",
-      "PackagePath": "staticwebassets\\HolidayDessertStore.chjha05rme.bundle.scp.css"
+      "PackagePath": "staticwebassets\\HolidayDessertStore.p49bjnxbly.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\holiday-desserts.db",
+      "PackagePath": "staticwebassets\\holiday-desserts.db"
     },
     {
       "Id": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project\\HolidayDessertStore\\wwwroot\\images\\desserts\\German_chocolate_bundt_cake.jpg",

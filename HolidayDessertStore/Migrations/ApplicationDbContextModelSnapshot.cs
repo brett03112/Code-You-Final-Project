@@ -31,14 +31,12 @@ namespace HolidayDessertStore.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DessertId");
 
                     b.ToTable("CartItems");
                 });
@@ -73,109 +71,7 @@ namespace HolidayDessertStore.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Desserts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "Smooth cheesecake topped with orange glaze and fresh orange slices, decorated with whipped cream rosettes",
-                            ImagePath = "/images/desserts/orange_slice_cheesecake.jpg",
-                            IsAvailable = true,
-                            Name = "Orange Creamsicle Cheesecake",
-                            Price = 45.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Description = "Classic key lime tart with graham cracker crust and whipped cream border",
-                            ImagePath = "/images/desserts/key_lime_pie.jpg",
-                            IsAvailable = true,
-                            Name = "Key Lime Tart",
-                            Price = 35.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Description = "Traditional rhubarb pie with lattice top crust and crystallized sugar finish",
-                            ImagePath = "/images/desserts/strawberry_rhubarb_pie.jpg",
-                            IsAvailable = true,
-                            Name = "Rhubarb Pie",
-                            Price = 32.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Description = "Three-layer vanilla cake with fresh strawberries and whipped cream frosting",
-                            ImagePath = "/images/desserts/strawberry_shortcake.jpg",
-                            IsAvailable = true,
-                            Name = "Strawberry Layer Cake",
-                            Price = 48.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "Chocolate bundt cake filled with coconut-pecan filling and topped with shredded coconut",
-                            ImagePath = "/images/desserts/German_chocolate_bundt_cake.jpg",
-                            IsAvailable = true,
-                            Name = "German Chocolate Bundt Cake",
-                            Price = 39.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Description = "Rich, gooey brownies with melted chocolate centers, perfect for chocolate lovers",
-                            ImagePath = "/images/desserts/brownies.jpg",
-                            IsAvailable = true,
-                            Name = "Double Chocolate Fudge Brownies",
-                            Price = 24.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Description = "Classic cinnamon-sugar cookies with a festive twist, perfect with hot cocoa",
-                            ImagePath = "/images/desserts/snickerdoodle_cookies.jpg",
-                            IsAvailable = true,
-                            Name = "Holiday Snickerdoodle Cookies",
-                            Price = 18.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Description = "Warm, flaky crust filled with sweet peaches and spices, served with candlelight ambiance",
-                            ImagePath = "/images/desserts/peach_cobbler.jpg",
-                            IsAvailable = true,
-                            Name = "Fresh Peach Cobbler",
-                            Price = 28.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Description = "Traditional lattice-topped apple pie with cinnamon and spices, surrounded by fall decorations",
-                            ImagePath = "/images/desserts/apple_pie.jpg",
-                            IsAvailable = true,
-                            Name = "Classic Apple Pie",
-                            Price = 32.99m,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Description = "Creamy vanilla pudding layered with fresh bananas, vanilla wafers, and caramel drizzle",
-                            ImagePath = "/images/desserts/banana_pudding.jpg",
-                            IsAvailable = true,
-                            Name = "Banana Pudding Delight",
-                            Price = 22.99m,
-                            Quantity = 10
-                        });
+                    b.ToTable("Dessert");
                 });
 
             modelBuilder.Entity("HolidayDessertStore.Models.PaymentModel", b =>
@@ -316,6 +212,12 @@ namespace HolidayDessertStore.Migrations
                             Id = "1",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            Name = "Customer",
+                            NormalizedName = "CUSTOMER"
                         });
                 });
 
@@ -404,24 +306,6 @@ namespace HolidayDessertStore.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "3128d6be-9e9b-4357-8dd3-51f83d2b636a",
-                            Email = "admin@example.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@EXAMPLE.COM",
-                            NormalizedUserName = "ADMIN@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAENJVGVNRj2IaVsvy3BZS00s7SA6nduKu/p4vw4zxe0ikrcriKz7e2s+Z8LNK9E9Vpw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "95617d82-19b9-4e37-9a56-6044c6bc85da",
-                            TwoFactorEnabled = false,
-                            UserName = "admin@example.com"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -484,13 +368,6 @@ namespace HolidayDessertStore.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "1",
-                            RoleId = "1"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -512,17 +389,6 @@ namespace HolidayDessertStore.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("HolidayDessertStore.Models.CartItem", b =>
-                {
-                    b.HasOne("HolidayDessertStore.Models.Dessert", "Dessert")
-                        .WithMany()
-                        .HasForeignKey("DessertId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Dessert");
                 });
 
             modelBuilder.Entity("HolidayDessertStore.Models.PaymentModel", b =>

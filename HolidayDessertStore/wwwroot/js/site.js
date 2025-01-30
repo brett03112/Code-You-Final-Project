@@ -1,6 +1,12 @@
 ﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
+
+/* This JavaScript code snippet is adding an event listener to the `DOMContentLoaded` event of the
+document. When the DOM content is fully loaded, it selects all elements with the class name
+`buy-button` and assigns them to the `buyButtons` constant. It also looks for an input element with
+the name `__RequestVerificationToken` and assigns its value to the `antiForgeryToken` constant if it
+exists. */
 document.addEventListener('DOMContentLoaded', function () {
     const buyButtons = document.querySelectorAll('.buy-button');
     const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');

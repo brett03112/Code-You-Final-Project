@@ -1,0 +1,16 @@
+### Get all desserts
+GET http://localhost:5014/api/Desserts
+Accept: application/json
+
+### Get a specific dessert by ID
+GET http://localhost:5014/api/Desserts/11
+Accept: application/json
+
+### Get a dessert that doesn't exist (should return 404)
+GET http://localhost:5014/api/Desserts/999
+Accept: application/json
+
+### Note: GET requests don't require authentication as they are configured for anonymous access
+
+### Variables
+@authToken =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJqdGkiOiJlYzJjZWI0OC0yOWQ0LTRmODMtYjQzYy1kZTgyMGEyM2YyYmQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzM4MjAzMDAzLCJpc3MiOiJIb2xpZGF5RGVzc2VydFN0b3JlLkFQSSIsImF1ZCI6IkhvbGlkYXlEZXNzZXJ0U3RvcmVDbGllbnRzIn0.l4wWiCosjn47dDzmNUHD7P4sSwXS54Uhgrm64wNFz-U

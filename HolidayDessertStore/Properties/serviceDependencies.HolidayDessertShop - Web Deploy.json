@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/HolidayDessertStoreAPI/apis/HolidayDessertStore",
+      "type": "apis.azure"
+    },
+    "sqlite1": {
+      "ignored": "True",
+      "type": "sqlite",
+      "connectionId": "ConnectionStrings:DatabaseConnection"
+    }
+  }
+}

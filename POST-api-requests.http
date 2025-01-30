@@ -1,0 +1,16 @@
+### Create a new dessert
+POST http://localhost:5014/api/Desserts
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+    "name": "Holiday Peppermint Cheesecake",
+    "description": "Rich cheesecake swirled with crushed peppermint candies, topped with chocolate ganache and whipped cream",
+    "price": 42.99,
+    "imagePath": "/images/desserts/peppermint_cheesecake.jpg",
+    "quantity": 15,
+    "isAvailable": true
+}
+
+### Variables
+@authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJqdGkiOiJmMTExNDdjMi02N2RmLTQ1MTctOTU1Yy1hYzBjZjQ5OTk1MmYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzM4MjAzODg2LCJpc3MiOiJIb2xpZGF5RGVzc2VydFN0b3JlLkFQSSIsImF1ZCI6IkhvbGlkYXlEZXNzZXJ0U3RvcmVDbGllbnRzIn0.kG5Ay5v_ll_39I2RgdHvU_5RNvjHFTGiaksvrXhESSY"
