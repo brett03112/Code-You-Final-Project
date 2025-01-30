@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolidayDessertStore.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f1c479cc4c1d09ab03bc66a98735c58779a4f6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff1543956b7f21c080945b169cf952b21b73d61")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolidayDessertStore.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolidayDessertStore.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
