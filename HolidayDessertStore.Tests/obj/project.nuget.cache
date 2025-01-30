@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1YljasvfCrc=",
+=======
+  "dgSpecHash": "pEkzAHX4vjM=",
+>>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project-Updated\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
   "expectedPackageFiles": [

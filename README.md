@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 # HolidayDessertStore
 
 This is the final project for the Code: KY May 2024 cohort, a complete e-commerce site for a holiday-themed dessert store serving a local community center.
 
 ## Project Overview
+=======
+# CODE-YOU-FINAL-PROJECT -- HOLIDAYDESSERTSTORE
+
+This is my Final Project for the Code: KY May 2024 Cohort. This project is a complete ecommerce site centered around a Holiday themed dessert store for a local community center. 
+>>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
 
 This project is an ASP.NET Core 9 Razor Pages web application using:
 
@@ -80,6 +86,7 @@ Key files and directories within `HolidayDessertStore.API`:
 
 Ensure the external API keys are configured correctly:
 
+<<<<<<< HEAD
 ### WeatherAPI Key
 
 1. Open `HolidayDessertStore/Services/WeatherService.cs`.
@@ -115,9 +122,28 @@ Ensure the external API keys are configured correctly:
 - **Admin User:**
   - Username: `admin@example.com`
   - Password: `admin00`
+=======
+`Code-You-Final-Project/HolidayDessertStore/Services/WeatherService.cs`
+`Line 97`, in the "public WeatherService(IHttpClientFactory httpClientFactory,ILogger<WeatherService> logger)"
+method at `_apiKey = "";`.
+The weatherapi.com api key must be entered.
+
+`Code-You-Final-Project/HolidayDessertStore/appsettings.json`
+Here you must enter the (2) API keys from Stripe.com
+
+`SecretKey: ""`
+
+`PublishableKey: ""`
+
+## User Logins
+
+primary user: `<admin@example.com>`
+password: `"admin00"`
+>>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
 
 ## API Usage
 
+<<<<<<< HEAD
 The API project (`HolidayDessertStore.API`) provides endpoints for managing desserts and authentication. You can use the provided HTTP request files (`GET-api-requests.http`, `POST-api-requests.http`, `PUT-api-requests.http`, `DELETE-api-requests.http`, `Login-api-requests.http`) to interact with the API.
 
 The base URL for the API is dependent on the port your API project is running on, typically `https://localhost:7145` or `http://localhost:5014`.  You can confirm the exact URL when you run the `HolidayDessertStore.API` project.
@@ -299,6 +325,10 @@ Ensure the external API keys are configured correctly:
 - **APIAdmin User: (Login-api-requests.http)**
   - Username: `admin@example.com`
   - Password: `admin00`
+=======
+You must be logged in under the "admin" user role above.
+Go to: [https://localhost:7056/swagger](https://localhost:7056/swagger)
+>>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
 
 ## Testing
 
@@ -308,6 +338,7 @@ To run the unit tests:
 
 1. Navigate to the test project directory:
 
+<<<<<<< HEAD
    ```bash
    cd HolidayDessertStore.Tests
    ```
@@ -319,6 +350,16 @@ To run the unit tests:
    ```
 
 ### Unit Test Descriptions
+=======
+- public async Task AddToCart_WithValidQuantity_ShouldAddItemAndUpdateStock()
+  - which tests adding items to the cart and updating the available items.
+- public async Task AddToCart_ExceedingAvailableQuantity_ShouldThrowException()
+  - which tests that calling the "ShoppingCartService.AddToCartAsync" with a quantity that exceeds that available stock will throw an exception.
+- public async Task GetCartTotal_WithMultipleItems_ShouldCalculateCorrectTotal()
+  - Make sure that the correct total is returned with multiple items in the cart.
+- public async Task UpdateCartItemQuantity_ShouldUpdateQuantityAndStock()
+  - Ensures that the service can correctly update the quantity of an item in a cart and update the available stock accordingly.
+>>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
 
 The `HolidayDessertStore.Tests` project includes the following unit tests for the shopping cart service:
 
