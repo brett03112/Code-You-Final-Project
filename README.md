@@ -115,11 +115,8 @@ Ensure the external API keys are configured correctly:
 - **APIAdmin User: (Login-api-requests.http)**
   - Username: `admin@example.com`
   - Password: `admin00`
-=======
 You must be logged in under the "admin" user role above.
 Go to: [https://localhost:7056/swagger](https://localhost:7056/swagger)
-
->>>>>>> 4f9b243f0740e2b5fd1adb1d49c345afd84da4fe
 
 ## Testing
 
