@@ -169,6 +169,11 @@ Example HTTP requests can be found in the following files:
 
 Deployment steps are outlined in `UserInstructions.md`.
 
+## Deployment URL
+
+The project is deployed to Azure App Service and can be accessed at:
+<https://holidaydessertstore-ehcdecg3a5arbtd2.canadacentral-01.azurewebsites.net/>
+
 ## SQL Initialization
 
 The initial admin user is created using the script found in `InitialAdminUser.sql`.

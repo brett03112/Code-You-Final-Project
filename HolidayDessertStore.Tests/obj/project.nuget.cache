@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1YljasvfCrc=",
+  "dgSpecHash": "15ql4dEUi7A=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Desktop\\Code-You-Final-Project-Updated\\HolidayDessertStore.Tests\\HolidayDessertStore.Tests.csproj",
   "expectedPackageFiles": [
@@ -74,12 +74,5 @@
     "C:\\Users\\brett\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\brett\\Desktop\\Code-You-Final-Project-Updated\\HolidayDessertStore.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
