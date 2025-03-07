@@ -31,7 +31,7 @@ namespace HolidayDessertStore.Services
         /// </summary>
         /// <param name="httpClientFactory">The IHttpClientFactory to use for creating the HTTP client for API calls.</param>
         /// <param name="logger">The ILogger to use for logging during API calls.</param>
-        /// public DessertApiService(IHttpClientFactory httpClientFactory, ILogger<DessertApiService> logger)
+        public DessertApiService(IHttpClientFactory httpClientFactory, ILogger<DessertApiService> logger)
         {
             _httpClient = httpClientFactory.CreateClient("HolidayDessertAPI");
             _logger = logger;
@@ -46,7 +46,7 @@ namespace HolidayDessertStore.Services
         /// there is a valid auth token. If not, it attempts to authenticate with the
         /// API using the admin credentials.
         /// </summary>
-        /// private async Task EnsureAuthenticatedAsync()
+        private async Task EnsureAuthenticatedAsync()
         {
             if (string.IsNullOrEmpty(_authToken))
             {
@@ -80,7 +80,7 @@ namespace HolidayDessertStore.Services
             {
                 var response = await _httpClient.GetAsync("api/Desserts");
                 response.EnsureSuccessStatusCode();
-                
+
                 var desserts = await response.Content.ReadFromJsonAsync<IEnumerable<Dessert>>(_jsonOptions);
                 return desserts ?? Enumerable.Empty<Dessert>();
             }
@@ -107,7 +107,7 @@ namespace HolidayDessertStore.Services
                 {
                     return null;
                 }
-                
+
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadFromJsonAsync<Dessert>(_jsonOptions);
             }
@@ -130,8 +130,8 @@ namespace HolidayDessertStore.Services
                 await EnsureAuthenticatedAsync();
                 var response = await _httpClient.PostAsJsonAsync("api/Desserts", dessert, _jsonOptions);
                 response.EnsureSuccessStatusCode();
-                
-                return await response.Content.ReadFromJsonAsync<Dessert>(_jsonOptions) 
+
+                return await response.Content.ReadFromJsonAsync<Dessert>(_jsonOptions)
                     ?? throw new InvalidOperationException("Failed to deserialize created dessert");
             }
             catch (HttpRequestException ex)
@@ -160,7 +160,7 @@ namespace HolidayDessertStore.Services
                 {
                     return false;
                 }
-                
+
                 response.EnsureSuccessStatusCode();
                 return true;
             }
@@ -187,7 +187,7 @@ namespace HolidayDessertStore.Services
                 {
                     return false;
                 }
-                
+
                 response.EnsureSuccessStatusCode();
                 return true;
             }
